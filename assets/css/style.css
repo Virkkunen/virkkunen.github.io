@@ -7,6 +7,8 @@
 
   --red: #fb4934;
   --green: #b8bb26;
+  --greenDark: #98971a;
+  --greenLight: #b8bb26;
   --yellow: #fabd2f;
   --blue: #83a598;
   --darkBlue: #458588;
@@ -29,9 +31,8 @@ body {
   background: var(--bg);
   font-family: "Fira Code", monospace;
   color: var(--primary-color);
-  margin: 60px auto;
-  padding: 20px;
-  max-width: 768px;
+  margin: auto;
+  max-width: 500px;
   align-items: left;
   justify-content: left;
 }
@@ -39,20 +40,19 @@ body {
 h1 {
   font-weight: 700;
   font-size: 2em;
-  line-height: 1.5em;
-}
-
-p {
-  font-size: 1.6em;
-  line-height: 1.5em;
+  margin-top: 2em;
 }
 
 a {
   color: var(--primary-color);
   text-decoration: none;
+  margin: 12px;
+  width: 100%;
+  height: 80px;
+  cursor: pointer;
 }
 
-.dark {
+.darkText {
   color: var(--secondary-color);
 }
 
@@ -66,9 +66,16 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
+.btn-row-01 {
+  width: auto;
+  height: auto;
+  display: flex;
+}
+
 button {
-  width: 150px;
-  height: 50px;
+  margin: 12px;
+  width: 100%;
+  height: 80px;
   cursor: pointer;
   font-size: 20px;
   font-weight: bold;
@@ -80,7 +87,7 @@ button {
 }
 
 button:hover {
-  box-shadow: 20px 5px 0 var(--bg1), -20px -5px 0 var(--bg1);
+  box-shadow: 20px 5px 0 var(--primary-color), -20px -5px 0 var(--primary-color);
 }
 
 button:focus {
