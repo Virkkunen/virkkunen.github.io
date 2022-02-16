@@ -108,8 +108,13 @@ button.green {
 button.aqua {
   background-color: var(--aqua);
   flex: auto;
-
 }
+
+button.dark-green {
+  background-color: var(--greenDark);
+  flex: auto;
+}
+
 button.dark-blue {
   background-color: var(--darkBlue);
   flex: auto;
