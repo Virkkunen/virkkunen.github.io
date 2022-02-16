@@ -1,6 +1,6 @@
 @media screen and (width < 768px) {
   .flex-container {
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
   }
 }
 @media screen and (width >= 768px) {
