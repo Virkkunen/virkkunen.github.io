@@ -14,6 +14,8 @@
   --purple: #d3869b;
   --aqua: #8ec07c;
   --orange: #fe8019;
+
+  --grey: #928374;
 }
 
 * {
@@ -39,8 +41,8 @@ h1 {
   font-size: 2em;
   line-height: 1.5em;
 }
+
 p {
-  font-weight: 400;
   font-size: 1.6em;
   line-height: 1.5em;
 }
