@@ -105,6 +105,11 @@ button.green {
   flex: auto;
 }
 
+button.red {
+  background-color: var(--red);
+  flex: auto;
+}
+
 button.aqua {
   background-color: var(--aqua);
   flex: auto;
