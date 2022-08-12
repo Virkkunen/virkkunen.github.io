@@ -68,9 +68,6 @@ h1 {
   gap: 12px;
 }
 
-.darkText {
-  color: var(--secondary-color);
-}
 
 a.back {
   color: var(--purple);
@@ -82,7 +79,7 @@ a.back {
   margin: 0 12px;
 }
 
-.portfolio-item div {
+.portfolio-item div, h3, h5 {
   margin: 12px 12px;
 }
 
@@ -101,6 +98,10 @@ img {
 }
 
 /* Colors */
+
+.darkText {
+  color: var(--secondary-color);
+}
 
 .text-blue {
   color: var(--blue);
@@ -142,6 +143,10 @@ img {
   flex: auto;
 }
 
+.text-aqua {
+  color: var(--aqua);
+}
+
 .dark-green {
   background-color: var(--greenDark);
   flex: auto;
@@ -150,6 +155,10 @@ img {
 .dark-blue {
   background-color: var(--darkBlue);
   flex: auto;
+}
+
+.yellow {
+  background-color: var(--yellow);
 }
 
 /* Buttons */
