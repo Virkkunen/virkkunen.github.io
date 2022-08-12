@@ -77,28 +77,37 @@ a.back {
   text-decoration: none;
 }
 
+.portfolio-content {
+  /* padding: 0 12px; */
+  margin: 0 12px;
+}
 
-.portfolio-item-header {
+.portfolio-item div {
+  margin: 12px 12px;
+}
+
+.portfolio-header {
   padding: 26px;
-  margin: 26px 0 12px 0;
+  /* margin: 26px 0 12px 0; */
   width: 100%;
-  cursor: pointer;
   color: var(--primary-color);
   border: 2px solid var(--bg0);
   border-radius: 8px;
 }
 
-/* Buttons */
-
-button {
-  padding: 24px;
-  flex: 0 0 32.1%;
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: bold;
-  color: var(--primary-color);
-  border: 2px solid var(--bg0);
+img {
   border-radius: 8px;
+  border: 8px solid var(--secondary-color);
+}
+
+/* Colors */
+
+.text-blue {
+  color: var(--blue);
+}
+
+.text-purple {
+  color: var(--purple);
 }
 
 .light-blue {
@@ -142,6 +151,21 @@ button {
   background-color: var(--darkBlue);
   flex: auto;
 }
+
+/* Buttons */
+
+button {
+  padding: 24px;
+  flex: 0 0 32.1%;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--primary-color);
+  border: 2px solid var(--bg0);
+  border-radius: 8px;
+}
+
+
 
 button:hover {
   filter: brightness(120%) drop-shadow(8px 8px 10px black);
