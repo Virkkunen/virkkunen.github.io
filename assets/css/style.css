@@ -97,7 +97,7 @@ a.back {
   margin: 0 12px;
 }
 
-.portfolio-item div, h1, h3, h5, p {
+.portfolio-item div, h1, h3, h4, h5, p {
   margin: 12px 12px;
 }
 
@@ -125,6 +125,11 @@ img {
 
 .condensed {
   font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.condensedBold {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: bold;
 }
 
 /* Colors */
@@ -165,6 +170,10 @@ img {
 .green {
   background-color: var(--green);
   flex: auto;
+}
+
+.text-green {
+  color: var(--green);
 }
 
 .red {
