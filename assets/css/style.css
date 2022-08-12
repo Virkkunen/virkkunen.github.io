@@ -79,7 +79,7 @@ a.back {
   margin: 0 12px;
 }
 
-.portfolio-item div, h3, h5 {
+.portfolio-item div, h3, h5, p {
   margin: 12px 12px;
 }
 
@@ -97,10 +97,24 @@ img {
   border: 8px solid var(--secondary-color);
 }
 
+/* Fonts */
+
+.sans {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.condensed {
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
 /* Colors */
 
 .darkText {
   color: var(--secondary-color);
+}
+
+.altText {
+  color: var(--bg2);
 }
 
 .text-blue {
