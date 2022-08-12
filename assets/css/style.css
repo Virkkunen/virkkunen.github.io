@@ -68,6 +68,24 @@ h1 {
   gap: 12px;
 }
 
+div.header-column-1 {
+  float: left;
+  width: 66%;
+}
+
+div.header-column-2 {
+  float: right;
+}
+
+div.header-row {
+  margin: 12px;
+}
+
+div.header-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 a.back {
   color: var(--purple);
@@ -79,7 +97,7 @@ a.back {
   margin: 0 12px;
 }
 
-.portfolio-item div, h3, h5, p {
+.portfolio-item div, h1, h3, h5, p {
   margin: 12px 12px;
 }
 
@@ -95,6 +113,8 @@ a.back {
 img {
   border-radius: 8px;
   border: 8px solid var(--secondary-color);
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* Fonts */
