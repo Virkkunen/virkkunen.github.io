@@ -2,10 +2,27 @@
   .flex-container {
     flex-flow: column wrap;
   }
+
+  .icons-responsive {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin: 24px;
+    gap: 12px;
+  }
+
 }
 @media (min-width: 768px) {
   .flex-container {
     flex-flow: row wrap;
+  }
+
+  .icons-responsive {
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    display: flex;
+    margin: 24px;
+    gap: 12px;
   }
 }
 
