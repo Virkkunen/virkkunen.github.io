@@ -78,6 +78,16 @@ a.back {
 }
 
 
+.portfolio-item-header {
+  padding: 26px;
+  margin: 26px 0 12px 0;
+  width: 100%;
+  cursor: pointer;
+  color: var(--primary-color);
+  border: 2px solid var(--bg0);
+  border-radius: 8px;
+}
+
 /* Buttons */
 
 button {
@@ -91,44 +101,44 @@ button {
   border-radius: 8px;
 }
 
-button.light-blue {
+.light-blue {
   background-color: var(--blue);
 }
 
-button.darker-blue {
+.darker-blue {
   background-color: var(--darkerBlue);
 }
 
-button.grey {
+.grey {
   background-color: var(--grey);
 }
 
-button.purple {
+.purple {
   background-color: var(--purple);
   flex: auto;
 }
 
-button.green {
+.green {
   background-color: var(--green);
   flex: auto;
 }
 
-button.red {
+.red {
   background-color: var(--red);
   flex: auto;
 }
 
-button.aqua {
+.aqua {
   background-color: var(--aqua);
   flex: auto;
 }
 
-button.dark-green {
+.dark-green {
   background-color: var(--greenDark);
   flex: auto;
 }
 
-button.dark-blue {
+.dark-blue {
   background-color: var(--darkBlue);
   flex: auto;
 }
