@@ -11,4 +11,6 @@
 - [ ] Seleção de temas
 - [ ] Mudar título da página
 - [ ] Colocar sobre em condensed ou bold
-- [ ] Colcoar textos do header em cor diferente
+- [ ] Colocar textos do header em cor diferente
+- [ ] Mudar altura da foto no layout mobile
+- [ ] Ajustar tamanho dos ícones de linguagens no mobile
