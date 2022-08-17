@@ -11,6 +11,10 @@
     gap: 12px;
   }
 
+  .icons-responsive img {
+    width: 52px;
+  }
+
 }
 @media (min-width: 768px) {
   .flex-container {
@@ -23,6 +27,10 @@
     display: flex;
     margin: 24px;
     gap: 12px;
+  }
+
+  .icons-responsive img {
+    width: 76px;
   }
 }
 
@@ -73,9 +81,8 @@ body {
 }
 
 h1 {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 2em;
-  /* margin-top: 2em; */
 }
 
 .flex-container {
@@ -85,23 +92,31 @@ h1 {
   gap: 12px;
 }
 
-div.header-column-1 {
+.header-column-1 {
   float: left;
   width: 50%;
 }
 
-div.header-column-2 {
+.header-column-2 {
   float: right;
 }
 
-div.header-row {
-  margin: 12px;
+.header-row {
+  margin: 16px;
+  margin-bottom: 24px;
 }
 
-div.header-row:after {
+.header-row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+.section-header {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
 }
 
 a.back {
@@ -109,41 +124,22 @@ a.back {
   text-decoration: none;
 }
 
-/* .portfolio-content {
-  margin: 0 12px;
-} */
-
-.portfolio-item div, h1, h3, h4, h5, p {
-  margin: 12px 12px;
-}
-
-.portfolio-header {
-  padding: 16px;
-  width: 100%;
-  color: var(--primary-color);
-  border: 2px solid var(--bg0);
-  border-radius: 8px;
-  text-align: left;
-}
-
-.collapsible {
-  cursor: pointer;
-}
-
-.collapsible:after {
-  content: '+';
-  float: right;
-  margin-left: 6px;
-}
-
-.collapsible-content {
-  display: none;
-  overflow: hidden;
-}
-
 img {
   border-radius: 8px;
   border: 8px solid var(--secondary-color);
+}
+
+.about h3, p {
+  margin-left: 16px;
+}
+
+.contact-buttons, .cv-buttons {
+  justify-content: space-evenly;
+  margin-bottom: 48px;
+}
+
+.icons-responsive {
+  margin-bottom: 48px;
 }
 
 /* Fonts */
@@ -181,6 +177,7 @@ img {
 
 .light-blue {
   background-color: var(--blue);
+  flex: auto;
 }
 
 .darker-blue {
@@ -189,6 +186,7 @@ img {
 
 .grey {
   background-color: var(--grey);
+  flex: auto;
 }
 
 .purple {
@@ -250,6 +248,6 @@ button:hover {
   filter: brightness(120%) drop-shadow(8px 8px 10px black);
 }
 
-button:active, .collapsible-active {
+button:active {
   filter: brightness(75%);
 }
