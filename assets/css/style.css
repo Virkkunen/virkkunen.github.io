@@ -129,12 +129,16 @@ img {
   border: 8px solid var(--secondary-color);
 }
 
-.about h3 {
+.about h3, p {
   margin-left: 16px;
 }
 
 .contact-buttons, .cv-buttons {
   justify-content: space-evenly;
+  margin-bottom: 48px;
+}
+
+.icons-responsive {
   margin-bottom: 48px;
 }
 
@@ -173,6 +177,7 @@ img {
 
 .light-blue {
   background-color: var(--blue);
+  flex: auto;
 }
 
 .darker-blue {
@@ -181,6 +186,7 @@ img {
 
 .grey {
   background-color: var(--grey);
+  flex: auto;
 }
 
 .purple {
