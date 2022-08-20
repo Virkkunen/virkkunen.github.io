@@ -80,12 +80,20 @@
         color: #458588;
       }
 
+      a.req {
+        color: #98971a
+      }
+
+      a.opt {
+        color: #fe8019;
+      }
+
       a:hover {
-        filter: brightness(75%);
+        filter: brightness(125%);
       }
 
       a:active {
-        color: #076678;
+        filter: brightness(75%);
       }
 
       p.small {
@@ -102,18 +110,22 @@
         <h1 class="section-header" style="text-align: center; margin-bottom: 32px;">Instalando Ryujinx LDN & Jogos & Extras</h1>
       </header>
       <nav id="toc-container">
-        <p class="toc-title">Passos obrigatórios</p>
+        <p class="toc-title">Conteúdo</p>
         <ul class="toc-list">
-          <li><a href="#instalando-ryu">1. Instalando Ryujinx</a></li>
-          <li><a href="#controles">2. Configurando Controles</a></li>
-          <li><a href="#perfil">3. Configurando Perfil</a></li>
-          <li><a href="#biblioteca">4. Colocando a Biblioteca de Jogos</a></li>
-          <li><a href="#atualizar">5. Atualizando e Instalando DLCs</a></li>
-          <li><a href="#smart">6. Desabilitando Smart Steer e Acceleration</a></li>
-          <li><a href="#jogar">7. Jogando</a></li>
+          <li><a href="#instalando-ryu" class="req">1. Instalando Ryujinx</a></li>
+          <li><a href="#controles" class="req">2. Configurando Controles</a></li>
+          <li><a href="#perfil" class="req">3. Configurando Perfil</a></li>
+          <li><a href="#biblioteca" class="req">4. Colocando a Biblioteca de Jogos</a></li>
+          <li><a href="#atualizar" class="req">5. Atualizando e Instalando DLCs</a></li>
+          <li><a href="#smart" class="req">6. Desabilitando Smart Steer e Acceleration</a></li>
+          <li><a href="#jogar" class="req">7. Jogando</a></li>
+          <li><a href="#save" class="opt">8. Save 100%</a></li>
+          <li><a href="#shaders" class="opt">9. Atualizando shaders via RyuSAK</a></li>
+          <li><a href="#performace" class="opt">10. Performance</a></li>
         </ul>
       </nav>
       <h3>Obs.: Seções em <span style="color: #98971a;">verde</span> são obrigatórias, em <span style="color: #fe8019;">laranja</span> são opcionais</h3>
+      <h5>Obs.2: Essa página é grande porque tem uma imagem pra cada passo pra não deixar dúvidas</h5>
 
       <div class="content">
         <h2 class="section-header dark-green" id="instalando-ryu">1. Instalando Ryujinx</h2>
@@ -219,6 +231,16 @@
         <p>7.3. Para jogar com os coleguinhas, vá em <strong>Wireless Play</strong></p>
         <p class="small">Se quiser jogar com mais alguém no seu PC, selecione <strong>Wireless Play 2p</strong> e configure um segundo controle como em <a href="#controles">2. Configurando Controles</a></p>
         <img src="assets/img/Ryujinx_20220820_003307.png">
+      </div>
+      <div class="content">
+        <h2 class="section-header orange" id="save">8. Save 100%</h2>
+        <p class="small">Esse save tem todos os karts e peças liberadas</p>
+        <p>8.1. <strong>Botão direito</strong> no Mario Kart 8 e clique em <strong>Open User Save Directory</strong></p>
+        <img src="assets/img/Ryujinx_20220820_004641.png">
+        <p>8.2. No pacote que baixou o MK8 + Ryujinx, tem um <strong>Save_completo.zip</strong>, <strong>extraia</strong> o conteúdo desse zip pra <strong>pasta dos saves</strong> e <strong>substitua</strong> o que pedir</p>
+        <p class="small">A imagem em <a href="#extrair">1.1.</a> mostra esse .zip</p>
+        <img src="assets/img/explorer_20220820_005654.png">
+        <p>8.3. Faça o processo <a href="smart" class="req">6. Desabilitando Smart Steer e Acceleration</a> novamente</p>
       </div>
     </section>
   </body>
