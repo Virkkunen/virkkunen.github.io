@@ -54,16 +54,18 @@
         border: 4px solid #282828;
         border-radius: 8px;
         color: #458588;
-        font-size: 85%;
-        padding: 16px;
-        width: 66%;
+        font-size: 90%;
+        padding: 8px;
+        width: 50%;
         margin: auto;
         margin-bottom: 2em;
+        line-height: 24px;
       }
 
       .toc-title {
         font-weight: 800;
         text-align: center;
+        font-size: 100%;
       }
 
       #toc-container li, #toc-container ul, #toc-container ul li {
@@ -100,18 +102,20 @@
         <h1 class="section-header" style="text-align: center; margin-bottom: 32px;">Instalando Ryujinx LDN & Jogos & Extras</h1>
       </header>
       <nav id="toc-container">
-        <p>Conteúdo</p>
+        <p class="toc-title">Conteúdo</p>
         <ul class="toc-list">
           <li><a href="#instalando-ryu">1. Instalando Ryujinx</a></li>
           <li><a href="#controles">2. Configurando Controles</a></li>
           <li><a href="#perfil">3. Configurando Perfil</a></li>
+          <li><a href="#biblioteca">4. Colocando a Biblioteca de Jogos</a></li>
+          <li><a href="#atualizar">4. Atualizando e Instalando DLCs</a></li>
         </ul>
       </nav>
       <h3>Obs.: Seções em <span style="color: #98971a;">verde</span> são obrigatórias, em <span style="color: #fe8019;">laranja</span> são opcionais</h3>
 
       <div class="content">
         <h2 class="section-header dark-green" id="instalando-ryu">1. Instalando Ryujinx</h2>
-        <p>1.1. Extraia as pastas <strong>Ryujinx LDN</strong> e <strong>ROM</strong> para algum lugar</p>
+        <p id="extrair">1.1. Extraia as pastas <strong>Ryujinx LDN</strong> e <strong>ROM</strong> para algum lugar</p>
         <p class="small">Preferencialmente em um SSD e definitivamente fora de Arquivos de Programas</p>
         <img src="assets/img/7zip_01.png">
         <p>1.2. Abra o Ryujinx em <strong>Ryujinx LDN/Ryujinx.exe</strong></p>
@@ -148,6 +152,20 @@
         <img src="assets/img/Ryujinx_20220819_233733.png">
         <p>3.5. Clique 2 vezes no seu perfil para ativá-lo</p>
         <img src="assets/img/Ryujinx_20220819_233749.png">
+      </div>
+      <div class="content">
+        <h2 class="section-header dark-green" id="biblioteca">4. Colocando a Biblioteca de Jogos</h2>
+        <p>4.1. Vá em <strong>Options > Settings</strong></p>
+        <img src="assets/img/Ryujinx_20220819_232146.png">
+        <p>4.2. Em <strong>Game Directiores</strong>, clique <strong>Add</strong></p>
+        <img src="assets/img/Ryujinx_20220819_235610.png">
+        <p>4.3. Escolha a pasta <strong>ROM</strong> que foi extraída em <a href="#extrair">1.1.</a></p>
+        <img src="assets/img/Ryujinx_20220819_235630.png">
+        <p>4.4. Após salvar e fechar, os jogos irão aparecer no Ryujinx</p>
+        <img src="assets/img/Ryujinx_20220819_235948.png">
+      </div>
+      <div class="content">
+        <h2 class="section-header dark-green" id="atualizar">5. Atualizando e Instalando DLCs</h2>
       </div>
     </section>
   </body>
