@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Fira+Sans+Condensed:wght@400;500;700&family=Fira+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/d460702b12.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/assets/icons/site.webmanifest" />
+    <style>
+      strong {
+        color: #d3869b;
+      }
+
+      .content {
+        width: 100%;
+        margin-bottom: 48px;
+      }
+
+      .content img {
+        margin: auto;
+        display: block;
+        max-width: 80%;
+      }
+
+      #toc-container {
+        background-color: #3c3836;
+        border: 4px solid #282828;
+        border-radius: 8px;
+        color: #8ec07c;
+        font-size: 90%;
+        padding: 8px;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 2em;
+        line-height: 24px;
+      }
+
+      .toc-title {
+        font-weight: 800;
+        text-align: center;
+        font-size: 100%;
+      }
+
+      #toc-container li, #toc-container ul, #toc-container ul li {
+        list-style: outside none none !important;
+      }
+
+      a, a:hover, a:active {
+        text-decoration: none;
+      }
+
+      a {
+        color: #8ec07c;
+      }
+
+      a.req {
+        color: #98971a
+      }
+
+      a.opt {
+        color: #458588;
+      }
+
+      a:hover {
+        filter: brightness(125%);
+      }
+
+      a:active {
+        filter: brightness(75%);
+      }
+
+      p.small {
+        filter: brightness(75%);
+        font-size: 14px;
+      }
+
+    </style>
+    <title>Ryujinx Tutorial</title>
+  </head>
+  <body>
+    <section class="container sans">
+      <header>
+        <h1 class="section-header" style="text-align: center; margin-bottom: 32px;">Instalando Ryujinx LDN & Jogos & Extras</h1>
+      </header>
+      <nav id="toc-container">
+        <p class="toc-title">Conteúdo</p>
+        <ul class="toc-list">
+          <li><a href="#instalando-ryu" class="req">1. Instalando Ryujinx</a></li>
+          <li><a href="#controles" class="req">2. Configurando Controles</a></li>
+          <li><a href="#perfil" class="req">3. Configurando Perfil</a></li>
+          <li><a href="#biblioteca" class="req">4. Colocando a Biblioteca de Jogos</a></li>
+          <li><a href="#atualizar" class="req">5. Atualizando e Instalando DLCs</a></li>
+          <li><a href="#smart" class="req">6. Desabilitando Smart Steer e Acceleration</a></li>
+          <li><a href="#jogar" class="req">7. Jogando</a></li>
+          <li><a href="#save" class="opt">8. Save 100%</a></li>
+          <li><a href="#shaders" class="opt">9. Atualizando shaders via RyuSAK</a></li>
+          <li><a href="#performace" class="opt">10. Performance</a></li>
+        </ul>
+      </nav>
+      <h3>Obs.: Seções em <span style="color: #98971a;">verde</span> são obrigatórias, em <span style="color: #458588;">azul</span> são opcionais</h3>
+      <h5>Obs.2: Essa página é grande porque tem uma imagem pra cada passo pra não deixar dúvidas</h5>
+
+      <div class="content">
+        <h2 class="section-header dark-green" id="instalando-ryu">1. Instalando Ryujinx</h2>
+        <p id="extrair">1.1. Extraia as pastas <strong>Ryujinx LDN</strong> e <strong>ROM</strong> para algum lugar</p>
+        <p class="small">Preferencialmente em um SSD e definitivamente fora de Arquivos de Programas</p>
+        <img src="assets/img/7zip_01.png">
+        <p>1.2. Abra o Ryujinx em <strong>Ryujinx LDN/Ryujinx.exe</strong></p>
+        <p class="small">Caso apareça um popup perguntando se quer usar Vulkan, clique <strong>Yes (Vulkan)</strong></p>
+      </div>
+      <div class="content">
+        <h2 class="section-header dark-green" id="controles">2. Configurando Controles</h2>
+        <p>2.1. Com o Ryujinx aberto, vá em <strong>Options > Settings > Input</strong></p>
+        <div style="display: flex;">
+          <img src="assets/img/Ryujinx_20220819_232146.png">
+          <img src="assets/img/Ryujinx_20220819_232206.png">
+        </div>
+        <p>2.2. Clique em <strong>Configure</strong> no Player 1</p>
+        <img src="assets/img/Ryujinx_20220819_232505.png" width="300px">
+        <p>2.3. Em <strong>Input Device</strong> selecione seu controle e em <strong>Controller Type:</strong> selecione <strong>Pro Controller</strong></p>
+        <p class="small">O Ryunjinx tem suporte pra DualSense sem precisar do DS4Windows e o Pro Controller sem precisar da Steam</p>
+        <img src="assets/img/Ryujinx_20220819_232632.png">
+        <p>2.4. Configure os inputs do jeito que preferir</p>
+        <p class="small">Lembre-se de habilitar o Rumble</p>
+        <img src="assets/img/Ryujinx_20220819_232958.png" width="80%">
+      </div>
+      <div class="content">
+        <h2 class="section-header dark-green" id="perfil">3. Configurando Perfil</h2>
+        <p>3.1. Vá em <strong>Options > Manage User Profiles</strong></p>
+        <img src="assets/img/Ryujinx_20220819_233637.png">
+        <p>3.2. Clique em <strong>Add New Profile</strong></p>
+        <p class="small">Precisa criar um novo perfil; se só renomear o padrão, vai dar conflito ao jogar online</p>
+        <img src="assets/img/Ryujinx_20220819_233657.png">
+        <p>3.3. Coloque seu nome</p>
+        <p class="small" style="font-size: 10px;">Definitivamente o verdadeiro Ian Chamon</p>
+        <img src="assets/img/Ryujinx_20220819_233720.png">
+        <p>3.4. Escolha uma imagem do seu PC ou uma do Switch</p>
+        <p class="small">Eu honestamente não faço ideia onde essas imagens aparecem</p>
+        <img src="assets/img/Ryujinx_20220819_233733.png">
+        <p>3.5. Clique 2 vezes no seu perfil para ativá-lo</p>
+        <img src="assets/img/Ryujinx_20220819_233749.png">
+      </div>
+      <div class="content">
+        <h2 class="section-header dark-green" id="biblioteca">4. Colocando a Biblioteca de Jogos</h2>
+        <p>4.1. Vá em <strong>Options > Settings</strong></p>
+        <img src="assets/img/Ryujinx_20220819_232146.png">
+        <p>4.2. Em <strong>Game Directiores</strong>, clique <strong>Add</strong></p>
+        <img src="assets/img/Ryujinx_20220819_235610.png">
+        <p>4.3. Escolha a pasta <strong>ROM</strong> que foi extraída em <a href="#extrair">1.1.</a></p>
+        <img src="assets/img/Ryujinx_20220819_235630.png">
+        <p>4.4. Após salvar e fechar, os jogos irão aparecer no Ryujinx</p>
+        <img src="assets/img/Ryujinx_20220819_235948.png">
+      </div>
+      <div class="content">
+        <h2 class="section-header dark-green" id="atualizar">5. Atualizando e Instalando DLCs</h2>
+        <p>5.1. Na tela principal do Ryujinx, clique com o <strong>botão direito no Mario Kart 8</strong> e selecione <strong>Manage Title Updates</strong></p>
+        <img src="assets/img/Ryujinx_20220820_000517.png">
+        <p>5.2. Clique em <strong>Add</strong></p>
+        <img src="assets/img/Ryujinx_20220820_000531.png">
+        <p>5.3. Selecione o update <strong>Mario Kart 8 Deluxe [0100152000022800][v786432] (1.19 GB).nsp</strong></p>
+        <img src="assets/img/Ryujinx_20220820_000546.png">
+        <p>5.4. Clique em <strong>Save</strong></p>
+        <img src="assets/img/Ryujinx_20220820_000602.png">
+        <p>5.5. É hora de arquitetar a delícia. <strong>Botão direito no Mario Kart 8</strong> e selecione <strong>Manage DLC</strong></p>
+        <img src="assets/img/Ryujinx_20220820_001048.png">
+        <p>5.6. Clique em <strong>Add</strong></p>
+        <img src="assets/img/Ryujinx_20220820_001150.png">
+        <p>5.7. Selecione a delícia <strong>Mario Kart 8 Deluxe [DLC Booster Course Pass, Wave 1-2]...</strong></p>
+        <img src="assets/img/Ryujinx_20220820_001204.png">
+        <p>5.8. Clique em <strong>Save</strong></p>
+        <img src="assets/img/Ryujinx_20220820_001216.png">
+      </div>
+      <div class="content">
+        <h2 class="section-header dark-green" id="smart">6. Desabilitando Smart Steer e Acceleration</h2>
+        <p class="small">De smart isso tem nada</p>
+        <p>6.1. <strong>Entre</strong> no jogo</p>
+        <p class="small">A primeira vez vai demorar, tá compilando os shaders e o progresso está no canto inferior direito</p>
+        <img src="assets/img/firefox_20220820_001848.png">
+        <p>6.2. <strong>Selecione</strong> um Mii</p>
+        <p class="small">Se tentar criar um Mii vai travar e fechar o Ryujinx; Da pra usar o mouse (Switch é touch)</p>
+        <img src="assets/img/Ryujinx_20220820_002025.png">
+        <p id="smart-smarter">6.3 Vá numa corrida/categoria qualquer para poder escolher um kart</p>
+        <p class="small"><strong>Single Player > Grand Prix > 50cc</strong> é o caminho mais rápido</p>
+        <div>
+          <img src="assets/img/Ryujinx_20220820_002222.png">
+          <img src="assets/img/Ryujinx_20220820_002233.png">
+          <img src="assets/img/Ryujinx_20220820_002240.png">
+        </div>
+        <p>6.4. <strong>Selecione</strong> um personagem qualquer e <strong>aperte Start (- ou + no Switch)</strong> para mostrar os status</p>
+        <img src="assets/img/Ryujinx_20220820_002752.png">
+        <p>6.5. <strong>Aperte L e R (LB/L1, RB/R1)</strong> para desabilitar as funções Smart</p>
+        <p class="small">Estarão desabilitadas se estiverem de acordo com a imagem abaixo</p>
+        <img src="assets/img/Ryujinx_20220820_002800.png">
+        <p>6.6. <strong>Aperte A (OK)</strong> só pra garantir que salvou, e volte pro menu principal</p>
+        <p class="small">Ou pare a emulação/feche o Ryujinx</p>
+      </div>
+      <div class="content">
+        <h2 class="section-header dark-green" id="jogar">7. Jogando</h2>
+        <p>7.1. É quase tempo. No menu do Ryujinx, vá em <strong>Options > Settings</strong></p>
+        <img src="assets/img/Ryujinx_20220819_232146.png">
+        <p>7.2. Vá na aba <strong>Multiplayer</strong> e em <strong>Network Passphrase:</strong> coloque <strong>Ryujinx-158d4dae</strong></p>
+        <p class="small">Salve e feche a janela depois</p>
+        <img src="assets/img/Ryujinx_20220820_003551.png">
+        <p>7.3. Para jogar com os coleguinhas, vá em <strong>Wireless Play</strong></p>
+        <p class="small">Se quiser jogar com mais alguém no seu PC, selecione <strong>Wireless Play 2p</strong> e configure um segundo controle como em <a href="#controles" class="req">2. Configurando Controles</a></p>
+        <img src="assets/img/Ryujinx_20220820_003307.png">
+      </div>
+      <div class="content">
+        <h2 class="section-header dark-blue" id="save">8. Save 100%</h2>
+        <p class="small">Esse save tem todos os karts e peças liberadas</p>
+        <p>8.1. <strong>Botão direito</strong> no Mario Kart 8 e clique em <strong>Open User Save Directory</strong></p>
+        <img src="assets/img/Ryujinx_20220820_004641.png">
+        <p>8.2. No pacote que baixou o MK8 + Ryujinx, tem um <strong>Save_completo.zip</strong>, <strong>extraia</strong> o conteúdo desse zip pra <strong>pasta dos saves</strong> e <strong>substitua</strong> o que pedir</p>
+        <p class="small">A imagem em <a href="#extrair">1.1.</a> mostra esse .zip</p>
+        <img src="assets/img/explorer_20220820_005654.png">
+        <p>8.3. Faça o processo <a href="#smart-smarter" class="req">6.3. Desabilitando Smart Steer e Acceleration</a> novamente</p>
+      </div>
+      <div class="content">
+        <h2 class="section-header dark-blue" id="shaders">9. Atualizando shaders via RyuSAK</h2>
+        <p class="small">Caso em algum momento precise baixar mais shaders, ou baixá-los novamente, ou para outro jogo</p>
+        <p>9.1. Dentro da pasta Ryujinx LDN, há uma pasta <strong>Ryusak</strong>. Abra o <strong>RyuSAK.exe</strong></p>
+        <img src="assets/img/explorer_20220820_010804.png">
+        <p>9.2. Em <strong>Configuration</strong>, selecione <strong>Add portable configuration</strong></p>
+        <img src="assets/img/RyuSAK_20220820_010900.png">
+        <p>Selecione o <strong>Ryujinx.exe</strong></p>
+        <img src="assets/img/RyuSAK_20220820_011102.png">
+        <p>9.3. <strong>Selecione</strong> o jogo</p>
+        <img src="assets/img/RyuSAK_20220820_011355.png">
+        <p>9.4. Clique em <strong>DOWNLOAD SHADERS</strong></p>
+        <p class="small">Se o seu <strong>Local shader count</strong> for maior que o <strong>RyuSAK shader count</strong>, não há necessidade de baixar os shaders</p>
+        <img src="assets/img/RyuSAK_20220820_011412.png">
+      </div>
+      <div class="content">
+        <h2 class="section-header dark-blue" id="performance">10. Performance</h2>
+        <p>- Certifique que não tem nada drenando os recursos do seu PC</p>
+        <p>- Em hipótese alguma desabilite o VSync nas configurações do Ryujinx</p>
+        <p>- Tente rodar em <strong>handheld</strong> clicando no <strong>botão Docked</strong> no canto inferior esquerdo</p>
+        <img src="assets/img/WhatsApp Image 2022-08-19 at 9.47.12 PM.jpeg">
+      </div>
+    </section>
+  </body>
+</html>
