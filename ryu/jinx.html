@@ -46,6 +46,7 @@
       .content img {
         margin: auto;
         display: block;
+        max-width: 80%;
       }
 
       #toc-container {
@@ -85,6 +86,11 @@
         color: #076678;
       }
 
+      p.small {
+        filter: brightness(75%);
+        font-size: 14px;
+      }
+
     </style>
     <title>Ryujinx Tutorial</title>
   </head>
@@ -96,18 +102,20 @@
       <nav id="toc-container">
         <p>Conteúdo</p>
         <ul class="toc-list">
-          <li><a href=""#instalando-ryu>1. Instalando Ryujinx</a></li>
-          <li><a href=""#controles>2. Configurando Controles</a></li>
+          <li><a href="#instalando-ryu">1. Instalando Ryujinx</a></li>
+          <li><a href="#controles">2. Configurando Controles</a></li>
+          <li><a href="#perfil">3. Configurando Perfil</a></li>
         </ul>
       </nav>
       <h3>Obs.: Seções em <span style="color: #98971a;">verde</span> são obrigatórias, em <span style="color: #fe8019;">laranja</span> são opcionais</h3>
 
       <div class="content">
         <h2 class="section-header dark-green" id="instalando-ryu">1. Instalando Ryujinx</h2>
-        <p>1.1. Extraia as pastas <strong>Ryujinx LDN</strong> e <strong>ROM</strong> para algum lugar (preferencialmente fora de Arquivos de Programas)</p>
+        <p>1.1. Extraia as pastas <strong>Ryujinx LDN</strong> e <strong>ROM</strong> para algum lugar</p>
+        <p class="small">Preferencialmente em um SSD e definitivamente fora de Arquivos de Programas</p>
         <img src="assets/img/7zip_01.png">
         <p>1.2. Abra o Ryujinx em <strong>Ryujinx LDN/Ryujinx.exe</strong></p>
-        <p>1.3. Caso apareça um popup perguntando se quer usar Vulkan, clique <strong>Yes (Vulkan)</strong></p>
+        <p class="small">Caso apareça um popup perguntando se quer usar Vulkan, clique <strong>Yes (Vulkan)</strong></p>
       </div>
       <div class="content">
         <h2 class="section-header dark-green" id="controles">2. Configurando Controles</h2>
@@ -119,11 +127,27 @@
         <p>2.2. Clique em <strong>Configure</strong> no Player 1</p>
         <img src="assets/img/Ryujinx_20220819_232505.png" width="300px">
         <p>2.3. Em <strong>Input Device</strong> selecione seu controle e em <strong>Controller Type:</strong> selecione <strong>Pro Controller</strong></p>
-        <p style="filter: brightness(75%); font-size: 14px;">O Ryunjinx tem suporte pra DualSense sem precisar do DS4Windows e o Pro Controller sem precisar da Steam</p>
+        <p class="small">O Ryunjinx tem suporte pra DualSense sem precisar do DS4Windows e o Pro Controller sem precisar da Steam</p>
         <img src="assets/img/Ryujinx_20220819_232632.png">
         <p>2.4. Configure os inputs do jeito que preferir</p>
-        <p style="filter: brightness(75%); font-size: 14px;">Lembre-se de habilitar o Rumble</p>
+        <p class="small">Lembre-se de habilitar o Rumble</p>
         <img src="assets/img/Ryujinx_20220819_232958.png" width="80%">
+      </div>
+      <div class="content">
+        <h2 class="section-header dark-green" id="perfil">3. Configurando Perfil</h2>
+        <p>3.1. Vá em <strong>Options > Manage User Profiles</strong></p>
+        <img src="assets/img/Ryujinx_20220819_233637.png">
+        <p>3.2. Clique em <strong>Add New Profile</strong></p>
+        <p class="small">Precisa criar um novo perfil; se só renomear o padrão, vai dar conflito ao jogar online</p>
+        <img src="assets/img/Ryujinx_20220819_233657.png">
+        <p>3.3. Coloque seu nome</p>
+        <p class="small" style="font-size: 10px;">Definitivamente o verdadeiro Ian Chamon</p>
+        <img src="assets/img/Ryujinx_20220819_233720.png">
+        <p>3.4. Escolha uma imagem do seu PC ou uma do Switch</p>
+        <p class="small">Eu honestamente não faço ideia onde essas imagens aparecem</p>
+        <img src="assets/img/Ryujinx_20220819_233733.png">
+        <p>3.5. Clique 2 vezes no seu perfil para ativá-lo</p>
+        <img src="assets/img/Ryujinx_20220819_233749.png">
       </div>
     </section>
   </body>
