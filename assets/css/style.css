@@ -233,6 +233,7 @@ img {
 
 .orange {
   background-color: var(--orange);
+  flex: auto;
 }
 
 /* Buttons */
