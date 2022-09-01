@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+  <script
+      src="https://kit.fontawesome.com/d460702b12.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/assets/icons/site.webmanifest" />
+  <title>Pixels Art</title>
+</head>
+<body>
+  <header>
+    <div id="back-home">
+      <!-- https://github.com/Virkkunen/trybe/tree/master/fundamentos/projetos/pixels-art -->
+        <a class="back" href="/index.html" style="text-decoration: none; color: #458588;"><i class="fas fa-arrow-left"><span style="font-family: monospace;"> Back to vrkknn.net</span></i></a>
+      </div>
+    <h1 id="title">Paleta de Cores</h1>
+    
+  </header>
+  <main>
+    <div id="color-palette">
+      <div class="color selected" style="background-color: rgb(0, 0, 0);"></div>
+      <div class="color" style="background-color: #cc241d;"></div>
+      <div class="color" style="background-color: #98971a;"></div>
+      <div class="color" style="background-color: #458588;"></div>
+    </div>
+    <div class="clear">
+      <button id="button-random-color">Cores aleatórias</button>
+      <button id="clear-board">Limpar</button>
+      <div class="input">
+        <input id="board-size" type="number" min="1" max="50">
+        <button id="generate-board">VQV</button>
+      </div>
+    </div>
+    <div id="pixel-board">
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
