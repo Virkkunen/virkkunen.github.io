@@ -29,17 +29,17 @@ function loadScore() {
 }
 
 function correctGuess() {
-  score.innerText = Number(score.innerText) + 3;
+  score.innerText = Number(score.innerText) + 1;
   saveScore();
 }
 
 function checkColor(color) {
   if (color === guessColor) {
-    answer.innerText = 'Acertou!';
+    answer.innerText = 'Correct!';
     answer.style.color = '#9EC49F';
     correctGuess();
   } else {
-    answer.innerText = 'Errou! Tente novamente!';
+    answer.innerText = 'Wrong! Try again.';
     answer.style.color = '#C49EA0';
   }
 }
@@ -62,7 +62,7 @@ function startGame() {
 }
 
 function resetGame() {
-  answer.innerText = 'Escolha uma cor';
+  answer.innerText = 'Pick a color';
   answer.style.color = '#cacaca';
   setColors();
   setGuessColor();
