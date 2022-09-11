@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .selected {
   background-color: gray;
   border-radius: 8px;
@@ -5,27 +11,29 @@
 
 body {
   font-family: Fira Sans, sans-serif;
-  width: 768px;
+  max-width: 768px;
   margin: auto;
   background-color: rgb(46 , 52 , 64);
   color: rgb(229 , 233 , 240);
-  text-align: center;
 }
 
 main {
   background-color: rgb(59 , 66 , 82);
   padding: 20px;
   border-radius: 0 0 8px 8px;
-  margin-top: 0;
 }
 
-h1 {
+header {
   background-color: rgb(67 , 76 , 94);
   color: rgb(236 , 239 , 244);
   padding: 20px;
   border-radius: 8px 8px 0 0;
   text-align: center;
   margin-bottom: 0;
+}
+
+h1 {
+  margin-top: 12px;
 }
 
 button {
@@ -82,4 +90,30 @@ li {
 
 .position {
   margin-bottom: 8px;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 8px;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+div {
+  margin-bottom: 12px;
 }
