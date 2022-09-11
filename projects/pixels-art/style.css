@@ -1,26 +1,43 @@
-/* * {
+* {
   transition: ease-in-out 0.3s;
-} */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: Silkscreen, monospace;
   background-color: rgb(40, 40, 40);
   color: rgb(251, 241, 199);
-  max-width: 768px;
+  max-width: 512px;
+  margin: auto;
 }
 
 #color-palette {
   padding: 20px;
   display: flex;
-  gap: 12px;
-  width: 204.4px; /* gambiarra que funciona */
+  justify-content: center;
+  gap: 20px;
+  background-color: #504945;
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
   background-color: #3c3836;
+  padding: 20px;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  margin-top: 8px;
 }
 
 .color {
-  border: 1px solid black;
+  border: 1px solid #1d20211a;
   padding: 20px;
-  display: inline-block;
 }
 
 .black {
@@ -28,13 +45,11 @@ body {
 }
 
 button {
-  border: 1px solid black;
-  height: 41.1px;
-  width: auto;
+  border: 1px solid #1d20211a;
   cursor: pointer;
-  display: inline-block;
   background-color: rgb(235, 219, 178);
   color: rgb(29, 32, 33);
+  padding: 12px;
 }
 
 button:hover {
@@ -47,31 +62,35 @@ button:active {
 
 #pixel-board {
   display: grid;
+  justify-content: center;
 }
 
 .pixel {
   display: inline-block;
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.065);
   width: 40px;
   height: 40px;
 }
 
 .clear {
-  padding: 10px 2px;
-  width: 33%;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  gap: 8px;
+  padding: 12px 0;
+}
+
+.board-size {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  padding: 12px 0;
 }
 
 #clear-board {
   background-color: #9d0006;
   color: #fbf1c7;
-  margin: auto;
-}
-
-.input {
-  display: flex;
-  margin: 10px 0;
 }
 
 #board-size {
