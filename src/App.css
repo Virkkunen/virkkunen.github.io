@@ -59,10 +59,12 @@ button {
   padding: 24px;
   cursor: pointer;
   font-size: 20px;
-  border: 2px solid #4c4f69;
+  border: 2px solid #1e1e2e;
+  border: 0;
   border-radius: 6px;
   display: flex;
   align-items: center;
+  justify-content: center;
   column-gap: 12px;
   font-weight: 500;
   flex: 1 0 30%;
