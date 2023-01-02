@@ -9,6 +9,7 @@ export default class Header extends Component {
         <div className='header-name'>
           <span>Fred</span> <span className='nick'>"Virkkunen"</span>
           <p>Almeida</p>
+          <span className='subtext'>🇮🇹 🇧🇷 Italian-Brazilian Web Developer</span>
         </div>
         <FontAwesomeIcon icon={faUser} size="4x" />
       </header>

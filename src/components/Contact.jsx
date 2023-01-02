@@ -5,7 +5,7 @@ export default class Contact extends Component {
   render() {
     return (
       <div className='box'>
-        {/* <h1>Contact me:</h1> */}
+        <h1>Contact me:</h1>
         <div className='buttons'>
           <Button
             name="fredalmeida-"

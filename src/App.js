@@ -3,9 +3,9 @@ import { Routes, Route } from 'react-router-dom';
 import Main from './pages/Main';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faCode } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faCode, faClock } from '@fortawesome/free-solid-svg-icons';
 
-library.add(fab, faEnvelope, faCode);
+library.add(fab, faEnvelope, faCode, faClock);
 
 function App() {
   return (
