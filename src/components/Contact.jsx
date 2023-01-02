@@ -25,14 +25,14 @@ export default class Contact extends Component {
             name="@vrkknn"
             icon="telegram"
             iconType="fab"
-            link="t.me/vrkknn"
+            link="https://t.me/vrkknn"
             color="sapphire"
           />
           <Button
             name="Virkkunen"
             icon="github"
             iconType="fab"
-            link="github.com/Virkkunen"
+            link="https://github.com/Virkkunen"
             color="grey"
           />
           <Button
