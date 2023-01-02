@@ -127,7 +127,8 @@ button:active {
 .buttons {
   display: flex;
   justify-content: center;
-  gap: 6px;
+  gap: 12px;
+  margin: 12px;
   flex-flow: row wrap;
 }
 
