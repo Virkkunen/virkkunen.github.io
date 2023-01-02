@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Contact from '../components/Contact'
 import Languages from '../components/Languages'
 import CV from '../components/CV'
+import Footer from '../components/Footer'
 
 export default class Main extends Component {
   render() {
@@ -12,6 +13,7 @@ export default class Main extends Component {
         <Contact />
         <CV />
         <Languages />
+        <Footer />
       </div>
     )
   }

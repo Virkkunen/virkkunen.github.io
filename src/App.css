@@ -130,3 +130,32 @@ button:active {
   gap: 6px;
   flex-flow: row wrap;
 }
+
+a {
+  color: #b4befe;
+  text-decoration: none;
+}
+
+a:hover {
+  filter: brightness(125%);
+}
+
+a:active {
+  filter: brightness(75%);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 0 24px;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 24px;
+  color: #b4befe;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  gap: 0 6px;
+}
