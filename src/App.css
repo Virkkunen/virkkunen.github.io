@@ -187,3 +187,30 @@ a:active {
   padding: 6px;
   flex: 1 0 12%;
 }
+
+@media only screen and (max-width: 767.9px) {
+  body {
+    margin-top: 0;
+  }
+
+  header {
+    margin: 12px 0;
+  }
+
+  .header-name {
+    font-size: 36px;
+  }
+
+  .box {
+    padding: 12px;
+    margin-bottom: 6px;
+  }
+
+  h1 {
+    margin-top: 12px;
+  }
+
+  .buttons-small {
+    flex: 1 0 12%;
+  }
+}
