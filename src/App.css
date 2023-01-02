@@ -52,6 +52,10 @@ header {
   border-radius: 6px;
 }
 
+.box-alt {
+  background-color: #45475a;
+}
+
 h1 {
   font-size: 22px;
   margin-bottom: 24px;

@@ -4,7 +4,7 @@ import Button from './Button'
 export default class CV extends Component {
   render() {
     return (
-      <div className='box'>
+      <div className='box box-alt'>
         {/* <h1>Curriculum</h1> */}
         <div className='buttons'>
           <Button
