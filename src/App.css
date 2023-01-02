@@ -22,6 +22,7 @@ body {
   display: flex;
   flex-flow: column nowrap;
   background-color: #181825;
+  gap: 12px 0;
   padding: 48px;
   border-radius: 6px;
   width: 1024px;
@@ -41,10 +42,10 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 48px;
+  margin-bottom: 36px;
 }
 
-.contactbox {
+.box {
   background-color: #313244;
   padding: 24px;
   border-radius: 6px;
@@ -83,6 +84,11 @@ button:active {
   color: #1e1e2ef1;
 }
 
+.blue-bold {
+  background-color: #1e66f5;
+  color: #cdd6f4;
+}
+
 .teal {
   background-color: #94e2d5;
   color: #1e1e2ef1;
@@ -101,6 +107,11 @@ button:active {
 .green {
   background-color: #a6e3a1;
   color: #1e1e2ef1;
+}
+
+.green-bold {
+  background-color: #40a02b;
+  color: #cdd6f4;
 }
 
 .mauve {

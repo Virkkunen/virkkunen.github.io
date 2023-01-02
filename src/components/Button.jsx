@@ -14,9 +14,9 @@ export default class Button extends Component {
         type='button'
         name={ name }
         className={ color }
-        onClick={this.handleClick}
+        onClick={ this.handleClick }
       >
-        <FontAwesomeIcon icon={[iconType, icon]} size="lg"/>
+        { icon && <FontAwesomeIcon icon={[iconType, icon]} size="lg"/> }
         { name }
       </button>
     )
