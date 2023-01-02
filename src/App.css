@@ -25,7 +25,7 @@ body {
   gap: 12px 0;
   padding: 48px;
   border-radius: 6px;
-  width: 1024px;
+  max-width: 1024px;
 }
 
 .header-name {
