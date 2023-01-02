@@ -19,14 +19,28 @@ export default class Info extends Component {
             icon="envelope"
             iconType="fas"
             link="mailto:vrkknn@vrkknn.net"
-            color="teal"
+            color="mauve"
           />
           <Button
             name="@vrkknn"
             icon="telegram"
             iconType="fab"
-            link="t/me/vrkknn"
+            link="t.me/vrkknn"
             color="sapphire"
+          />
+          <Button
+            name="Virkkunen"
+            icon="github"
+            iconType="fab"
+            link="github.com/Virkkunen"
+            color="grey"
+          />
+          <Button
+            name="WhatsApp"
+            icon="whatsapp"
+            iconType="fab"
+            link="https://wa.link/t1uuz0"
+            color="green"
           />
         </div>
       </div>

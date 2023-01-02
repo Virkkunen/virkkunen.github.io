@@ -65,6 +65,7 @@ button {
   align-items: center;
   column-gap: 12px;
   font-weight: 500;
+  flex: 1 0 30%;
 }
 
 button:hover {
@@ -90,7 +91,24 @@ button:active {
   color: #1e1e2ef1;
 }
 
+.grey {
+  background-color: #9399b2;
+  color: #1e1e2ef1;
+}
+
+.green {
+  background-color: #a6e3a1;
+  color: #1e1e2ef1;
+}
+
+.mauve {
+  background-color: #cba6f7;
+  color: #1e1e2ef1;
+}
+
 .buttons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 6px;
+  flex-flow: row wrap;
 }
