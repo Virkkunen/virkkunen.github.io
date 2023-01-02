@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import Button from './Button'
 
-export default class Info extends Component {
+export default class Contact extends Component {
   render() {
     return (
-      <div className='infobox'>
+      <div className='contactbox'>
         <h1>Contact me:</h1>
         <div className='buttons'>
           <Button
