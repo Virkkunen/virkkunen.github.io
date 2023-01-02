@@ -10,7 +10,7 @@ export default class Header extends Component {
           <span>Fred</span> <span className='nick'>"Virkkunen"</span>
           <p>Almeida</p>
         </div>
-        <FontAwesomeIcon icon={faUser} size="2x" />
+        <FontAwesomeIcon icon={faUser} size="4x" />
       </header>
     )
   }

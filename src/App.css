@@ -29,18 +29,19 @@ body {
 }
 
 .header-name {
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 700;
 }
 
 .nick {
-  font-size: 16px;
+  font-size: 20px;
   color: #a6adc8;
 }
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 0 24px;
   align-items: center;
   margin-bottom: 36px;
 }
