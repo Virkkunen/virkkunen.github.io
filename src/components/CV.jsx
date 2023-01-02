@@ -5,7 +5,7 @@ export default class CV extends Component {
   render() {
     return (
       <div className='box'>
-        <h1>Curriculum</h1>
+        {/* <h1>Curriculum</h1> */}
         <div className='buttons'>
           <Button
             name="🇧🇷 Currículo"
