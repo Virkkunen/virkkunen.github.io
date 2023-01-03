@@ -22,7 +22,7 @@
       "color": "blue"
     },
     {
-      "name": "Virkkunen-",
+      "name": "Virkkunen",
       "icon": "github",
       "iconType": "fab",
       "link": "https://github.com/Virkkunen",
@@ -36,6 +36,35 @@
       "color": "green"
     }
   ],
-  "portfolio": [],
+  "portfolio": [
+    {
+      "name": "Art portfolio",
+      "icon": "behance",
+      "iconType": "fab",
+      "link": "https://www.behance.net/vrkknn",
+      "color": "blue"
+    },
+    {
+      "name": "Trybe Projects: Fundaments",
+      "icon": "html5",
+      "iconType": "fab",
+      "link": "https://github.com/Virkkunen/trybe/tree/master/fundamentos/projetos",
+      "color": "green"
+    },
+    {
+      "name": "Trybe Projects: Frontend",
+      "icon": "react",
+      "iconType": "fab",
+      "link": "https://github.com/Virkkunen/trybe/tree/master/frontend/projetos",
+      "color": "green"
+    },
+    {
+      "name": "Timer",
+      "icon": "clock",
+      "iconType": "fas",
+      "link": "/timer",
+      "color": "red"
+    }
+  ],
   "devicons": []
 }
