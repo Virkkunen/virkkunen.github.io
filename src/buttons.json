@@ -1,0 +1,41 @@
+{
+  "contact": [
+    {
+      "name": "fredalmeida-",
+      "icon": "linkedin",
+      "iconType": "fab",
+      "link": "https://www.linkedin.com/in/fredalmeida-/",
+      "color": "blue"
+    },
+    {
+      "name": "fred@vrkknn.net",
+      "icon": "envelope",
+      "iconType": "fas",
+      "link": "mailto:vrkknn@vrkknn.net",
+      "color": "mauve"
+    },
+    {
+      "name": "@vrkknn",
+      "icon": "telegram",
+      "iconType": "fab",
+      "link": "https://t.me/vrkknn",
+      "color": "blue"
+    },
+    {
+      "name": "Virkkunen-",
+      "icon": "github",
+      "iconType": "fab",
+      "link": "https://github.com/Virkkunen",
+      "color": "grey"
+    },
+    {
+      "name": "WhatsApp",
+      "icon": "whatsapp",
+      "iconType": "fab",
+      "link": "https://wa.link/t1uuz0",
+      "color": "green"
+    }
+  ],
+  "portfolio": [],
+  "devicons": []
+}
