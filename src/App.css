@@ -203,7 +203,7 @@ i:hover, img:hover {
 /* https://www.youtube.com/watch?v=T33NN_pPeNI */
 .hidden {
   opacity: 0;
-  transition: all 0.2s;
+  transition: all 0.8s;
   filter: blur(4px);
 }
 
@@ -215,7 +215,7 @@ i:hover, img:hover {
 
 @media (prefers-reduced-motion: no-preference) {
   .hidden {
-    transition: all 1s;
+    transition: all 0.8s;
   }
 }
 

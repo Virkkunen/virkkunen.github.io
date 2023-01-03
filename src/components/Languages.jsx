@@ -10,7 +10,7 @@ export default class Languages extends Component {
 
     return (
       <div className='box hidden'>
-        <h1>Stuff I know:</h1>
+        <h1>Stuff I know</h1>
         <div className='buttons-small'>
           {icons.map((icon) => (
             <Devicon
