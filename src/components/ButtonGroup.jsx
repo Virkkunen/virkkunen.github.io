@@ -14,7 +14,7 @@ export default class ButtonGroup extends Component {
               name={link.name}
               icon={link.icon}
               iconType={link.iconType}
-              link={link.icon}
+              link={link.link}
               color={link.color}
             />
           ))}
