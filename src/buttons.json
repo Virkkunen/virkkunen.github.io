@@ -66,5 +66,101 @@
       "color": "red"
     }
   ],
-  "devicons": []
+  "devicons": [
+    {
+      "name": "android",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "apple",
+      "iconStyle": "original"
+    },
+    {
+      "name": "bash",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "bootstrap",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "css3",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "django",
+      "iconStyle": "plain",
+      "svgStyle": "plain"
+    },
+    {
+      "name": "docker",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "git",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "github",
+      "iconStyle": "original"
+    },
+    {
+      "name": "html5",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "javascript",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "jira",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "linux",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "markdown",
+      "iconStyle": "original"
+    },
+    {
+      "name": "photoshop",
+      "iconStyle": "plain",
+      "svgStyle": "plain"
+    },
+    {
+      "name": "premierepro",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "python",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "raspberrypi",
+      "iconStyle": "line"
+    },
+    {
+      "name": "react",
+      "iconStyle": "original"
+    },
+    {
+      "name": "redux",
+      "iconStyle": "original"
+    },
+    {
+      "name": "trello",
+      "iconStyle": "plain",
+      "svgStyle": "plain"
+    },
+    {
+      "name": "vscode",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "windows8",
+      "iconStyle": "original"
+    }
+  ]
 }
