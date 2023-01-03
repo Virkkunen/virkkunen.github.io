@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { faCat } from '@fortawesome/free-solid-svg-icons';
 
 export default class Header extends Component {
   render() {
@@ -12,7 +12,7 @@ export default class Header extends Component {
           <span className='subtext'>🇮🇹 🇧🇷 Italian-Brazilian Web Developer</span>
         </div>
         <div className='mobile-hidden'>
-          <FontAwesomeIcon icon={faUser} size="4x" />
+          <FontAwesomeIcon icon={faCat} size="4x" />
         </div>
       </header>
     )
