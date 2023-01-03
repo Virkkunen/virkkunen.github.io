@@ -11,7 +11,9 @@ export default class Header extends Component {
           <p>Almeida</p>
           <span className='subtext'>🇮🇹 🇧🇷 Italian-Brazilian Web Developer</span>
         </div>
-        <FontAwesomeIcon icon={faUser} size="4x" />
+        <div className='mobile-hidden'>
+          <FontAwesomeIcon icon={faUser} size="4x" />
+        </div>
       </header>
     )
   }

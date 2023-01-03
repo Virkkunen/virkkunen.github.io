@@ -195,10 +195,15 @@ a:active {
 
   header {
     margin: 12px 0;
+    justify-content: center;
   }
 
   .header-name {
-    font-size: 36px;
+    font-size: 34px;
+  }
+
+  .subtext {
+    font-size: 16px;
   }
 
   .box {
@@ -212,5 +217,13 @@ a:active {
 
   .buttons-small {
     flex: 1 0 12%;
+  }
+
+  .content {
+    padding: 24px;
+  }
+
+  .mobile-hidden {
+    display: none;
   }
 }
