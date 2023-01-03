@@ -5,7 +5,7 @@ import Devicon from './Devicon';
 export default class Languages extends Component {
   render() {
     const size = "48px";
-    const json = require("../buttons.json");
+    const json = require("../data/buttons.json");
     const icons = json.devicons;
 
     return (

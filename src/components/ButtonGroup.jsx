@@ -4,7 +4,7 @@ import Button from "./Button";
 export default class ButtonGroup extends Component {
   render() {
     const { type } = this.props;
-    const json = require("../buttons.json");
+    const json = require("../data/buttons.json");
     const buttons = (json[type]);
     return (
       <div className='buttons'>
