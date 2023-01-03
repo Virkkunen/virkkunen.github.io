@@ -189,8 +189,8 @@ a:active {
   flex: 1 0 12%;
 }
 
-a:hover, img:hover {
-  background-color: #9399b2;
+i:hover, img:hover {
+  background-color: #9399b227;
 }
 
 /* https://www.youtube.com/watch?v=T33NN_pPeNI */
