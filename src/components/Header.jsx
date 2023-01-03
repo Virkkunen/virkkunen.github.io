@@ -12,7 +12,7 @@ export default class Header extends Component {
           <span className='subtext'>🇮🇹 🇧🇷 Italian-Brazilian Web Developer</span>
         </div>
         <div className='mobile-hidden'>
-          <FontAwesomeIcon icon={faCat} size="4x" />
+          <FontAwesomeIcon icon={faCat} size="4x" color='#f38ba8'/>
         </div>
       </header>
     )

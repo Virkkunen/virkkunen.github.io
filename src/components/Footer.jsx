@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 export default class Footer extends Component {
   render() {
     return (
-      <div className='footer'>
+      <div className='footer hidden'>
         <a
           className='footer-item'
           href="https://github.com/Virkkunen"
