@@ -9,7 +9,7 @@ export default class Languages extends Component {
     const icons = json.devicons;
 
     return (
-      <div className='box'>
+      <div className='box hidden'>
         <h1>Stuff I know:</h1>
         <div className='buttons-small'>
           {icons.map((icon) => (

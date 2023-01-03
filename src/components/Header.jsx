@@ -5,7 +5,7 @@ import { faCat } from '@fortawesome/free-solid-svg-icons';
 export default class Header extends Component {
   render() {
     return (
-      <header>
+      <header className='hidden'>
         <div className='header-name'>
           <span>Fred</span> <span className='nick'>"Virkkunen"</span>
           <p>Almeida</p>
