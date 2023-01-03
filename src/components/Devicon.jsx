@@ -13,6 +13,7 @@ export default class Devicon extends Component {
           alt={name}
           width={size}
           height={size}
+          title={name}
         />
       )
     };
@@ -33,6 +34,7 @@ export default class Devicon extends Component {
       <i
         className={iconClass}
         style={style}
+        title={name}
       />
     )
   }
