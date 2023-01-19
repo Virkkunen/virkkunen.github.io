@@ -3,13 +3,14 @@ import Header from "../components/Header";
 import Contact from "../components/Contact";
 import Languages from "../components/Languages";
 import CV from "../components/CV";
+import ErrorBox from "../components/ErrorBox";
 import Footer from "../components/Footer";
 import Portfolio from "../components/Portfolio";
 import AppContext from "../context/AppContext";
 import Loading from "../components/Loading";
 
 export default function Main() {
-  const { isLoading, buttonData } = useContext(AppContext);
+  const { isLoading, error, buttonData } = useContext(AppContext);
 
   useEffect(() => {
     if (!buttonData) return;
@@ -26,16 +27,17 @@ export default function Main() {
   return (
     <div className="content">
       {isLoading && <Loading />}
-      <Header />
+      {error && <ErrorBox />}
       {buttonData && (
         <div>
+          <Header />
           <Contact />
           <CV />
           <Languages />
           <Portfolio />
+          <Footer />
         </div>
       )}
-      <Footer />
     </div>
   );
 }
