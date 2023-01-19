@@ -6,14 +6,14 @@ export default function Button(props) {
   return (
     <a
       type="button"
-      name={ name }
-      className={ color }
-      href={ link }
+      name={name}
+      className={color}
+      href={link}
       target="_blank"
       rel="noreferrer noopener"
     >
-      { icon && <FontAwesomeIcon icon={[iconType, icon]} size="lg" /> }
-      { name }
+      {icon && <FontAwesomeIcon icon={[iconType, icon]} size="lg" />}
+      {name}
     </a>
   );
 }
