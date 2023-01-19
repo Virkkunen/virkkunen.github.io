@@ -7,7 +7,7 @@ export default function Button(props) {
     <a
       type="button"
       name={name}
-      className={color}
+      className={`hidden ${color}`}
       href={link}
       target="_blank"
       rel="noreferrer noopener"

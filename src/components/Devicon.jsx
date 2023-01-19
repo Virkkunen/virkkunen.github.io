@@ -14,11 +14,11 @@ export default function Devicon(props) {
   if (svg) {
     const srcLink = `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${name}/${name}-${svgStyle}.svg`;
     return (
-      <img src={srcLink} alt={name} width={size} height={size} title={name} />
+      <img className='hidden' src={srcLink} alt={name} width={size} height={size} title={name} />
     );
   }
 
-  const iconClass = `devicon-${name}-${iconStyle} colored`;
+  const iconClass = `hidden devicon-${name}-${iconStyle} colored`;
 
   let style = {
     fontSize: size,

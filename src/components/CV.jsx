@@ -4,7 +4,7 @@ import Button from "./Button";
 export default function CV() {
   return (
     <div className="box hidden">
-      <h1>Curriculum</h1>
+      <h1 className="hidden">Curriculum</h1>
       <div className="buttons">
         <Button
           name="🇧🇷 Currículo"
