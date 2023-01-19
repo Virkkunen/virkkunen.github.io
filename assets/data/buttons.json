@@ -1,0 +1,166 @@
+{
+  "contact": [
+    {
+      "name": "fredalmeida-",
+      "icon": "linkedin",
+      "iconType": "fab",
+      "link": "https://www.linkedin.com/in/fredalmeida-/",
+      "color": "blue"
+    },
+    {
+      "name": "fred@vrkknn.net",
+      "icon": "envelope",
+      "iconType": "fas",
+      "link": "mailto:vrkknn@vrkknn.net",
+      "color": "mauve"
+    },
+    {
+      "name": "@vrkknn",
+      "icon": "telegram",
+      "iconType": "fab",
+      "link": "https://t.me/vrkknn",
+      "color": "blue"
+    },
+    {
+      "name": "Virkkunen",
+      "icon": "github",
+      "iconType": "fab",
+      "link": "https://github.com/Virkkunen",
+      "color": "grey"
+    },
+    {
+      "name": "WhatsApp",
+      "icon": "whatsapp",
+      "iconType": "fab",
+      "link": "https://wa.link/t1uuz0",
+      "color": "green"
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "Art portfolio",
+      "icon": "behance",
+      "iconType": "fab",
+      "link": "https://www.behance.net/vrkknn",
+      "color": "blue"
+    },
+    {
+      "name": "Trybe Projects: Fundaments",
+      "icon": "html5",
+      "iconType": "fab",
+      "link": "https://github.com/Virkkunen/trybe/tree/master/fundamentos/projetos",
+      "color": "green"
+    },
+    {
+      "name": "Trybe Projects: Frontend",
+      "icon": "react",
+      "iconType": "fab",
+      "link": "https://github.com/Virkkunen/trybe/tree/master/frontend/projetos",
+      "color": "green"
+    },
+    {
+      "name": "Timer",
+      "icon": "clock",
+      "iconType": "fas",
+      "link": "/timer",
+      "color": "red"
+    }
+  ],
+  "devicons": [
+    {
+      "name": "android",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "apple",
+      "iconStyle": "original"
+    },
+    {
+      "name": "bash",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "bootstrap",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "css3",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "django",
+      "iconStyle": "plain",
+      "svgStyle": "plain"
+    },
+    {
+      "name": "docker",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "git",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "github",
+      "iconStyle": "original"
+    },
+    {
+      "name": "html5",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "javascript",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "jira",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "linux",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "markdown",
+      "iconStyle": "original"
+    },
+    {
+      "name": "photoshop",
+      "iconStyle": "plain",
+      "svgStyle": "plain"
+    },
+    {
+      "name": "premierepro",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "python",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "raspberrypi",
+      "iconStyle": "line"
+    },
+    {
+      "name": "react",
+      "iconStyle": "original"
+    },
+    {
+      "name": "redux",
+      "iconStyle": "original"
+    },
+    {
+      "name": "trello",
+      "iconStyle": "plain",
+      "svgStyle": "plain"
+    },
+    {
+      "name": "vscode",
+      "iconStyle": "plain"
+    },
+    {
+      "name": "windows8",
+      "iconStyle": "original"
+    }
+  ]
+}
