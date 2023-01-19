@@ -1,15 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
+import AppContext from "../context/AppContext";
 import Devicon from "./Devicon";
 
 export default function Languages() {
   const size = "48px";
-  const json = require("../data/buttons.json");
-  const icons = json.devicons;
+  const { buttonData: { devicons } } = useContext(AppContext);
   return (
     <div className="box hidden">
       <h1>Stuff I know</h1>
       <div className="buttons-small">
-        {icons.map((icon) => (
+        {devicons.map((icon) => (
           <Devicon
             name={icon.name}
             iconStyle={icon.iconStyle}
