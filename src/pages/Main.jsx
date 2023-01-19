@@ -35,7 +35,6 @@ export default function Main() {
           <Portfolio />
         </div>
       )}
-
       <Footer />
     </div>
   );
