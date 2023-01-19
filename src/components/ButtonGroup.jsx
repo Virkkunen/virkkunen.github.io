@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
+import AppContext from "../context/AppContext";
 import Button from "./Button";
 
 export default function ButtonGroup({ type }) {
-  const json = require("../data/buttons.json");
-  const buttons = json[type];
+  // const json = require("../data/buttons.json");
+  const { buttonData } = useContext(AppContext);
+  const buttons = buttonData[type];
+  
   return (
     <div className="buttons">
       {buttons.map((link) => (
