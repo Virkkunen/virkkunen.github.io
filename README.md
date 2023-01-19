@@ -1,2 +1,2 @@
-# [vrkknn.net](vrkknn.net)
-## [virkkunen.github.io](virkkunen.github.io)
+# [vrkknn.net](https://vrkknn.net)
+## [virkkunen.github.io](https://virkkunen.github.io)
