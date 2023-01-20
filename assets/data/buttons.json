@@ -67,7 +67,7 @@
     },
     {
       "name": "Dice",
-      "icon": "diced20",
+      "icon": "dice-d20",
       "iconType": "fas",
       "link": "/dice",
       "color": "green"
