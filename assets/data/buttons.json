@@ -64,6 +64,13 @@
       "iconType": "fas",
       "link": "/timer",
       "color": "red"
+    },
+    {
+      "name": "Dice",
+      "icon": "dice-d20",
+      "iconType": "fas",
+      "link": "/dice",
+      "color": "green"
     }
   ],
   "devicons": [
