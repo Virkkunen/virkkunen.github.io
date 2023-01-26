@@ -1,11 +1,11 @@
-import React, { useContext } from "react";
+import React, { useContext, useMemo } from "react";
 import AppContext from "../context/AppContext";
 import Button from "./Button";
 
 export default function ButtonGroup({ type }) {
   // const json = require("../data/buttons.json");
   const { buttonData } = useContext(AppContext);
-  const buttons = buttonData[type];
+  const buttons = useMemo(() => buttonData[type], [buttonData, type]);
   
   return (
     <div className="buttons">

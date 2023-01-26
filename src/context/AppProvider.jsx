@@ -13,8 +13,8 @@ export default function AppProvider({ children }) {
       const bData = await fetchData(url);
       setButtonData(bData);
     };
-    getButtonData(jsonUrl);
-  }, []);
+    if (!buttonData) getButtonData(jsonUrl);
+  }, [fetchData, buttonData]);
 
   return (
     <AppContext.Provider value={{ buttonData, isLoading, error }}>
