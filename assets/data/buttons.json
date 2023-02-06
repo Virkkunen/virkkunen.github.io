@@ -71,6 +71,13 @@
       "iconType": "fas",
       "link": "/dice",
       "color": "green"
+    },
+    {
+      "name": "Recipes",
+      "icon": "bowl-food",
+      "iconType": "fas",
+      "link": "https://tryberecipes.vercel.app",
+      "color": "mauve"
     }
   ],
   "devicons": [
