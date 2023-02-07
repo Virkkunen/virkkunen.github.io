@@ -45,17 +45,10 @@
       "color": "blue"
     },
     {
-      "name": "Trybe Projects: Fundaments",
-      "icon": "html5",
-      "iconType": "fab",
-      "link": "https://github.com/Virkkunen/trybe/tree/master/fundamentos/projetos",
-      "color": "green"
-    },
-    {
-      "name": "Trybe Projects: Frontend",
+      "name": "Trybe Projects",
       "icon": "react",
       "iconType": "fab",
-      "link": "https://github.com/Virkkunen/trybe/tree/master/frontend/projetos",
+      "link": "https://github.com/Virkkunen/trybe/tree/master/projetos",
       "color": "green"
     },
     {
