@@ -151,15 +151,6 @@
       "svgStyle": "original"
     },
     {
-      "name": "photoshop",
-      "iconStyle": "plain",
-      "svgStyle": "plain"
-    },
-    {
-      "name": "premierepro",
-      "iconStyle": "plain"
-    },
-    {
       "name": "python",
       "iconStyle": "plain"
     },
@@ -174,6 +165,11 @@
     {
       "name": "redux",
       "iconStyle": "original"
+    },
+    {
+      "name": "sass",
+      "iconStyle": "original",
+      "svgStyle": "original"
     },
     {
       "name": "tailwindcss",
