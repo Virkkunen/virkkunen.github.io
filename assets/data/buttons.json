@@ -104,6 +104,10 @@
       "iconStyle": "plain"
     },
     {
+      "name": "express",
+      "iconStyle": "original"
+    },
+    {
       "name": "git",
       "iconStyle": "plain"
     },
@@ -128,8 +132,23 @@
       "iconStyle": "plain"
     },
     {
+      "name": "materialui",
+      "iconStyle": "plain",
+      "svgStyle": "original"
+    },
+    {
       "name": "markdown",
       "iconStyle": "original"
+    },
+    {
+      "name": "mysql",
+      "iconStyle": "plain",
+      "svgStyle": "original"
+    },
+    {
+      "name": "nodejs",
+      "iconStyle": "plain",
+      "svgStyle": "original"
     },
     {
       "name": "photoshop",
@@ -157,7 +176,17 @@
       "iconStyle": "original"
     },
     {
+      "name": "tailwindcss",
+      "iconStyle": "plain",
+      "svgStyle": "plain"
+    },
+    {
       "name": "trello",
+      "iconStyle": "plain",
+      "svgStyle": "plain"
+    },
+    {
+      "name": "typescript",
       "iconStyle": "plain",
       "svgStyle": "plain"
     },
