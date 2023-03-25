@@ -71,6 +71,13 @@
       "iconType": "fas",
       "link": "https://tryberecipes.vercel.app",
       "color": "mauve"
+    },
+    {
+      "name": "Store Manager",
+      "icon": "store",
+      "iconType": "fas",
+      "link": "https://github.com/Virkkunen/store-manager/",
+      "color": "teal"
     }
   ],
   "devicons": [
