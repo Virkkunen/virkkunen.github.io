@@ -7,7 +7,7 @@ export default function Languages() {
   const { buttonData: { devicons } } = useContext(AppContext);
   return (
     <div className="box hidden">
-      <h1 className="hidden">Stuff I know</h1>
+      <h1 className="hidden">What I know</h1>
       <div className="buttons-small">
         {devicons.map((icon) => (
           <Devicon
