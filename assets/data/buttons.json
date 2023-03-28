@@ -78,6 +78,13 @@
       "iconType": "fas",
       "link": "https://github.com/Virkkunen/store-manager/",
       "color": "teal"
+    },
+    {
+      "name": "Weather",
+      "icon": "cloud-moon",
+      "iconType": "fas",
+      "link": "/weather",
+      "color": "peach"
     }
   ],
   "devicons": [
