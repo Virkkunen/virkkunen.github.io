@@ -7,13 +7,13 @@ export default function CV() {
       <h1 className="hidden">Curriculum</h1>
       <div className="buttons">
         <Button
-          name="🇧🇷 Currículo"
-          color="green-bold"
+          name="🇧🇷 In Portuguese"
+          color="green"
           link="https://github.com/Virkkunen/virkkunen.github.io/raw/master/assets/files/cv_ptBR.pdf"
         />
         <Button
-          name="🇬🇧 Curriculum Vitae"
-          color="blue-bold"
+          name="🇬🇧 In English"
+          color="blue"
           link="https://github.com/Virkkunen/virkkunen.github.io/raw/master/assets/files/cv_enGB.pdf"
         />
       </div>
