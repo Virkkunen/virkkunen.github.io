@@ -9,12 +9,12 @@ export default function CV() {
         <Button
           name="🇧🇷 In Portuguese"
           color="green"
-          link="https://github.com/Virkkunen/virkkunen.github.io/raw/master/assets/files/cv_ptBR.pdf"
+          link="https://github.com/Virkkunen/virkkunen.github.io/raw/master/assets/files/cv_br.pdf"
         />
         <Button
           name="🇬🇧 In English"
           color="blue"
-          link="https://github.com/Virkkunen/virkkunen.github.io/raw/master/assets/files/cv_enGB.pdf"
+          link="https://github.com/Virkkunen/virkkunen.github.io/raw/master/assets/files/cv_en.pdf"
         />
       </div>
     </div>
