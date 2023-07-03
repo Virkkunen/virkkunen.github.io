@@ -5,8 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: { fontFamily: { 'fira': ['Fira Sans', 'sans'], 'fira-condensed': ['Fira Sans Condensed', 'sans'] } },
   },
-  plugins: [],
+  plugins: [require("@catppuccin/tailwindcss")({
+    defaultFlavor: 'mocha'
+  })],
 }
 
