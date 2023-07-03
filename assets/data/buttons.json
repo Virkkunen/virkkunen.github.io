@@ -34,6 +34,13 @@
       "iconType": "fab",
       "link": "https://wa.link/t1uuz0",
       "color": "green"
+    },
+    {
+      "name": "Mastodon",
+      "icon": "mastodon",
+      "iconType": "fab",
+      "link": "https://mastodon.social/@Virkkunen",
+      "color": "lavender"
     }
   ],
   "portfolio": [
@@ -109,6 +116,10 @@
       "iconStyle": "plain"
     },
     {
+      "name": "dart",
+      "iconStyle": "original"
+    },
+    {
       "name": "django",
       "iconStyle": "plain",
       "svgStyle": "plain"
@@ -119,6 +130,10 @@
     },
     {
       "name": "express",
+      "iconStyle": "original"
+    },
+    {
+      "name": "flutter",
       "iconStyle": "original"
     },
     {

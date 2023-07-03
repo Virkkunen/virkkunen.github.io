@@ -140,6 +140,11 @@ a:active {
   color: #1e1e2ef1;
 }
 
+.lavender {
+  background-color: #b4befe;
+  color: #1e1e2ef1;
+}
+
 .buttons {
   display: flex;
   justify-content: center;
