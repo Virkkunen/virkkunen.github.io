@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Block from './components/Block';
 import Button from './components/Button';
 import { faCat, faCode } from '@fortawesome/free-solid-svg-icons';
-import data from '../public/data';
+import data from './data';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function App() {
