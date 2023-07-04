@@ -1,227 +1,239 @@
-{
+import { IconProp } from "@fortawesome/fontawesome-svg-core";
+import { faGithub, faLinkedin, faMastodon, faTelegram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
+interface Data {
+  contact: Button[];
+  portfolio: Button[];
+  languages: Test[];
+}
+
+interface Button {
+  title: string;
+  icon: IconProp;
+  color: string;
+  link: string;
+}
+
+interface Test {
+  [key: string]: string;
+}
+
+const data: Data = {
   "contact": [
     {
-      "name": "fredalmeida-",
-      "icon": "linkedin",
-      "iconType": "fab",
-      "link": "https://www.linkedin.com/in/fredalmeida-/",
-      "color": "blue"
-    },
-    {
-      "name": "fred@vrkknn.net",
-      "icon": "envelope",
-      "iconType": "fas",
-      "link": "mailto:vrkknn@vrkknn.net",
-      "color": "mauve"
-    },
-    {
-      "name": "@vrkknn",
-      "icon": "telegram",
-      "iconType": "fab",
-      "link": "https://t.me/vrkknn",
-      "color": "blue"
-    },
-    {
-      "name": "Virkkunen",
-      "icon": "github",
-      "iconType": "fab",
+      "title": "Virkkunen",
+      "icon": faGithub,
       "link": "https://github.com/Virkkunen",
       "color": "grey"
     },
     {
-      "name": "WhatsApp",
-      "icon": "whatsapp",
-      "iconType": "fab",
+      "title": "@vrkknn",
+      "icon": faTelegram,
+      "link": "https://t.me/vrkknn",
+      "color": "blue"
+    },
+    {
+      "title": "fredalmeida-",
+      "icon": faLinkedin,
+      "link": "https://www.linkedin.com/in/fredalmeida-/",
+      "color": "blue"
+    },
+    {
+      "title": "fred@vrkknn.net",
+      "icon": faEnvelope,
+      "link": "mailto:vrkknn@vrkknn.net",
+      "color": "mauve"
+    },
+
+
+    {
+      "title": "WhatsApp",
+      "icon": faWhatsapp,
       "link": "https://wa.link/t1uuz0",
       "color": "green"
     },
     {
-      "name": "Mastodon",
-      "icon": "mastodon",
-      "iconType": "fab",
+      "title": "@Virkkunen@mastodon.social",
+      "icon": faMastodon,
       "link": "https://mastodon.social/@Virkkunen",
       "color": "lavender"
     }
   ],
   "portfolio": [
     {
-      "name": "Art portfolio",
+      "title": "Art portfolio",
       "icon": "behance",
-      "iconType": "fab",
       "link": "https://www.behance.net/vrkknn",
       "color": "blue"
     },
     {
-      "name": "Trybe Projects",
+      "title": "Trybe Projects",
       "icon": "react",
-      "iconType": "fab",
       "link": "https://github.com/Virkkunen/trybe/tree/master/projetos",
       "color": "green"
     },
     {
-      "name": "Timer",
+      "title": "Timer",
       "icon": "clock",
-      "iconType": "fas",
       "link": "/timer",
       "color": "red"
     },
     {
-      "name": "Dice",
+      "title": "Dice",
       "icon": "dice-d20",
-      "iconType": "fas",
       "link": "/dice",
       "color": "green"
     },
     {
-      "name": "Recipes",
+      "title": "Recipes",
       "icon": "bowl-food",
-      "iconType": "fas",
       "link": "https://tryberecipes.vercel.app",
       "color": "mauve"
     },
     {
-      "name": "Store Manager",
+      "title": "Store Manager",
       "icon": "store",
-      "iconType": "fas",
       "link": "https://github.com/Virkkunen/store-manager/",
       "color": "teal"
     },
     {
-      "name": "Weather",
+      "title": "Weather",
       "icon": "cloud-moon",
-      "iconType": "fas",
       "link": "/weather",
       "color": "peach"
     }
   ],
-  "devicons": [
+  "languages": [
     {
-      "name": "android",
+      "title": "android",
       "iconStyle": "plain"
     },
     {
-      "name": "apple",
+      "title": "apple",
       "iconStyle": "original"
     },
     {
-      "name": "bash",
+      "title": "bash",
       "iconStyle": "plain"
     },
     {
-      "name": "bootstrap",
+      "title": "bootstrap",
       "iconStyle": "plain"
     },
     {
-      "name": "css3",
+      "title": "css3",
       "iconStyle": "plain"
     },
     {
-      "name": "dart",
+      "title": "dart",
       "iconStyle": "original"
     },
     {
-      "name": "django",
+      "title": "django",
       "iconStyle": "plain",
       "svgStyle": "plain"
     },
     {
-      "name": "docker",
+      "title": "docker",
       "iconStyle": "plain"
     },
     {
-      "name": "express",
+      "title": "express",
       "iconStyle": "original"
     },
     {
-      "name": "flutter",
+      "title": "flutter",
       "iconStyle": "original"
     },
     {
-      "name": "git",
+      "title": "git",
       "iconStyle": "plain"
     },
     {
-      "name": "github",
+      "title": "github",
       "iconStyle": "original"
     },
     {
-      "name": "html5",
+      "title": "html5",
       "iconStyle": "plain"
     },
     {
-      "name": "javascript",
+      "title": "javascript",
       "iconStyle": "plain"
     },
     {
-      "name": "jira",
+      "title": "jira",
       "iconStyle": "plain"
     },
     {
-      "name": "linux",
+      "title": "linux",
       "iconStyle": "plain"
     },
     {
-      "name": "materialui",
+      "title": "materialui",
       "iconStyle": "plain",
       "svgStyle": "original"
     },
     {
-      "name": "markdown",
+      "title": "markdown",
       "iconStyle": "original"
     },
     {
-      "name": "mysql",
+      "title": "mysql",
       "iconStyle": "plain",
       "svgStyle": "original"
     },
     {
-      "name": "nodejs",
+      "title": "nodejs",
       "iconStyle": "plain",
       "svgStyle": "original"
     },
     {
-      "name": "python",
+      "title": "python",
       "iconStyle": "plain"
     },
     {
-      "name": "raspberrypi",
+      "title": "raspberrypi",
       "iconStyle": "line"
     },
     {
-      "name": "react",
+      "title": "react",
       "iconStyle": "original"
     },
     {
-      "name": "redux",
+      "title": "redux",
       "iconStyle": "original"
     },
     {
-      "name": "sass",
+      "title": "sass",
       "iconStyle": "original",
       "svgStyle": "original"
     },
     {
-      "name": "tailwindcss",
+      "title": "tailwindcss",
       "iconStyle": "plain",
       "svgStyle": "plain"
     },
     {
-      "name": "trello",
+      "title": "trello",
       "iconStyle": "plain",
       "svgStyle": "plain"
     },
     {
-      "name": "typescript",
+      "title": "typescript",
       "iconStyle": "plain",
       "svgStyle": "plain"
     },
     {
-      "name": "vscode",
+      "title": "vscode",
       "iconStyle": "plain"
     },
     {
-      "name": "windows8",
+      "title": "windows8",
       "iconStyle": "original"
     }
   ]
 }
+
+export default data;
