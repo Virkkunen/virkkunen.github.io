@@ -1,8 +1,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Block from './components/Block';
 import Button from './components/Button';
-import { faCat } from '@fortawesome/free-solid-svg-icons';
+import { faCat, faCode } from '@fortawesome/free-solid-svg-icons';
 import data from '../public/data';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function App() {
   return (
@@ -17,8 +18,10 @@ function App() {
             <span>Almeida</span>
           </div>
           <FontAwesomeIcon
+            className='transition-all ease-in-out duration-200 hover:text-red'
             icon={faCat}
             color='#d20f39'
+            size='4x'
           />
         </div>
         <span className='text-subtext1 text-xl max-sm:text-sm font-medium mt-6'>
@@ -38,6 +41,30 @@ function App() {
             link={item.link}
           />
         ))}
+      </Block>
+
+      <Block>
+        <div className='flex flex-row justify-around'>
+          <a
+            className='flex flex-row items-center gap-x-1 transition-all ease-in-out duration-200 hover:text-blue active:text-lavender'
+            target='_blank'
+            rel='noreferrer noopener'
+            href='https://github.com/Virkkunen'
+          >
+            <FontAwesomeIcon icon={faGithub} fixedWidth/>
+            <span>Virkkunen</span>
+          </a>
+          <span className='text-overlay2'>•</span>
+          <a
+            className='flex flex-row items-center gap-x-1 transition-all ease-in-out duration-200 hover:text-blue active:text-lavender'
+            target='_blank'
+            rel='noreferrer noopener'
+            href='https://github.com/Virkkunen'
+          >
+            <FontAwesomeIcon icon={faCode} fixedWidth/>
+            <span>source</span>
+          </a>
+        </div>
       </Block>
     </div>
   );
