@@ -9,6 +9,7 @@ function App() {
   return (
     <div className='flex flex-col xl:grid xl:grid-cols-12 xl:row-auto max-md:p-6 xl:h-full xl:place-content-center xl:my-auto xl:min-h-screen gap-y-8'>
       <Block>
+        {/* I'll get around simplifying this eventually */}
         <div className='flex flex-row justify-between items-center'>
           <div className='flex flex-col gap-y-1 font-extrabold text-[48px]'>
             <div className='flex flex-row gap-x-2 items-baseline'>
@@ -18,7 +19,7 @@ function App() {
             <span>Almeida</span>
           </div>
           <FontAwesomeIcon
-            className='transition-all ease-in-out duration-200 hover:text-red'
+            className='transition-all ease-in-out duration-200 rounded-2xl hover:bg-clip-content hover:text-transparent hover:bg-gradient-to-b hover:from-[#5BCEFA] hover:via-[#F5A9B8] hover:to-white'
             icon={faCat}
             color='#d20f39'
             size='4x'
@@ -44,6 +45,41 @@ function App() {
         ))}
       </Block>
 
+      <Block
+        title="What I've made"
+        buttonGroup
+      >
+        {data.portfolio.map((item) => (
+          <Button
+            title={item.title}
+            icon={item.icon}
+            color={item.color}
+            link={item.link}
+            key={item.title}
+          />
+        ))}
+      </Block>
+
+      <Block title='What I know:'>
+        <span className='text-[10px]'>lots of stuff i swear (this is under construction)</span>
+      </Block>
+
+      <Block
+        title='Curriculum:'
+        buttonGroup
+      >
+        <Button
+          title='🇬🇧 In English'
+          color='lavender'
+          link='/cv_en.pdf'
+        />
+        <Button
+          title='🇧🇷 In Portuguese'
+          color='green'
+          link='/cv_en.pdf'
+        />
+      </Block>
+
       <Block>
         <div className='flex flex-row justify-around'>
           <a
@@ -52,7 +88,10 @@ function App() {
             rel='noreferrer noopener'
             href='https://github.com/Virkkunen'
           >
-            <FontAwesomeIcon icon={faGithub} fixedWidth/>
+            <FontAwesomeIcon
+              icon={faGithub}
+              fixedWidth
+            />
             <span>Virkkunen</span>
           </a>
           <span className='text-overlay2'>•</span>
@@ -62,7 +101,10 @@ function App() {
             rel='noreferrer noopener'
             href='https://github.com/Virkkunen'
           >
-            <FontAwesomeIcon icon={faCode} fixedWidth/>
+            <FontAwesomeIcon
+              icon={faCode}
+              fixedWidth
+            />
             <span>source</span>
           </a>
         </div>

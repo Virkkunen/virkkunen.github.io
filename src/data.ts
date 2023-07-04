@@ -1,6 +1,6 @@
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import { faGithub, faLinkedin, faMastodon, faTelegram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faBehance, faGithub, faLinkedin, faMastodon, faReact, faTelegram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faBowlFood, faClock, faCloudMoon, faDiceD20, faEnvelope, faStore } from '@fortawesome/free-solid-svg-icons';
 
 interface Data {
   contact: Button[];
@@ -63,43 +63,43 @@ const data: Data = {
   "portfolio": [
     {
       "title": "Art portfolio",
-      "icon": "behance",
+      "icon": faBehance,
       "link": "https://www.behance.net/vrkknn",
       "color": "blue"
     },
     {
       "title": "Trybe Projects",
-      "icon": "react",
+      "icon": faReact,
       "link": "https://github.com/Virkkunen/trybe/tree/master/projetos",
       "color": "green"
     },
     {
       "title": "Timer",
-      "icon": "clock",
+      "icon": faClock,
       "link": "/timer",
       "color": "red"
     },
     {
       "title": "Dice",
-      "icon": "dice-d20",
+      "icon": faDiceD20,
       "link": "/dice",
       "color": "green"
     },
     {
       "title": "Recipes",
-      "icon": "bowl-food",
+      "icon": faBowlFood,
       "link": "https://tryberecipes.vercel.app",
       "color": "mauve"
     },
     {
       "title": "Store Manager",
-      "icon": "store",
+      "icon": faStore,
       "link": "https://github.com/Virkkunen/store-manager/",
       "color": "teal"
     },
     {
       "title": "Weather",
-      "icon": "cloud-moon",
+      "icon": faCloudMoon,
       "link": "/weather",
       "color": "peach"
     }
