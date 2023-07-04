@@ -39,6 +39,7 @@ function App() {
             icon={item.icon}
             color={item.color}
             link={item.link}
+            key={item.title}
           />
         ))}
       </Block>
