@@ -37,7 +37,7 @@ const data: Data = {
       "title": "fredalmeida-",
       "icon": faLinkedin,
       "link": "https://www.linkedin.com/in/fredalmeida-/",
-      "color": "blue"
+      "color": "sapphire"
     },
     {
       "title": "fred@vrkknn.net",
