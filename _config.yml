@@ -1,9 +1,1 @@
 include: [".well-known", "_matrix"]
-
-exclude:
-  - client.html
-  - server.html
-  - key_v2_server.html
-
-plugins:
-  - jekyll-redirect-from
