@@ -61,7 +61,7 @@ function App() {
       </Block>
 
       <Block title='What I know:'>
-        <span className='text-[10px]'>lots of stuff i swear (this is under construction)</span>
+        <span className='text-[10px]'>(this section will be updated soon™️)</span>
       </Block>
 
       <Block
@@ -76,7 +76,7 @@ function App() {
         <Button
           title='🇧🇷 In Portuguese'
           color='green'
-          link='/cv_en.pdf'
+          link='/cv_br.pdf'
         />
       </Block>
 
@@ -99,7 +99,7 @@ function App() {
             className='flex flex-row items-center gap-x-1 transition-all ease-in-out duration-200 hover:text-blue active:text-lavender'
             target='_blank'
             rel='noreferrer noopener'
-            href='https://github.com/Virkkunen'
+            href='https://github.com/Virkkunen/virkkunen.github.io'
           >
             <FontAwesomeIcon
               icon={faCode}
