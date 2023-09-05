@@ -1,12 +1,9 @@
 include: [".well-known", "_matrix"]
 
-permalink: /:path/
-matrix:
-  client: /matrix/client
-  server: /matrix/server
-  key:
-    v2:
-      server: /_matrix/key/v2/server
+exclude:
+  - client.html
+  - server.html
+  - key_v2_server.html
 
 plugins:
   - jekyll-redirect-from
