@@ -1,1 +1,4 @@
 include: [".well-known", "_matrix"]
+
+plugins:
+  - jekyll-redirect-from

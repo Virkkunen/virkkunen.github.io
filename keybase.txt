@@ -1,4 +1,0 @@
----
-layout: none
-permalink: _matrix/key/v2/server.json
----
