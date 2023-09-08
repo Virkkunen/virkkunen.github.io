@@ -13,6 +13,7 @@ interface Button {
   icon: IconProp;
   color: string;
   link: string;
+  tooltip?: string;
 }
 
 interface Test {
@@ -69,25 +70,29 @@ const data: Data = {
       "title": "Timer",
       "icon": faClock,
       "link": "/timer",
-      "color": "red"
+      "color": "red",
+      "tooltip": "A timer app with sound alerts"
     },
     {
       "title": "Dice",
       "icon": faDiceD20,
       "link": "/dice",
-      "color": "green"
+      "color": "green",
+      "tooltip": "A simple dice roller with dice notation (2d20+3)"
     },
     {
       "title": "Weather",
       "icon": faCloudMoon,
       "link": "/weather",
-      "color": "peach"
+      "color": "peach",
+      "tooltip": "A weather forecast app"
     },
     {
       "title": "Microbin",
       "icon": faPaste,
       "link": "https://microbin.vrkknn.net",
-      "color": "sapphire"
+      "color": "sapphire",
+      "tooltip": "A secure text and file sharing web application"
     }
   ],
   "languages": [

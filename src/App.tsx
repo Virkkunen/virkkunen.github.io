@@ -41,12 +41,13 @@ function App() {
             color={item.color}
             link={item.link}
             key={item.title}
+            tooltipTarget={item.title.replace(/\s/g, '')}
           />
         ))}
       </Block>
 
       <Block
-        title="What I've made"
+        title="What I've made (or self hosted)"
         buttonGroup
       >
         {data.portfolio.map((item) => (
@@ -56,6 +57,8 @@ function App() {
             color={item.color}
             link={item.link}
             key={item.title}
+            tooltipTarget={item.title.replace(/\s/g, '')}
+            tooltip={item.tooltip}
           />
         ))}
       </Block>
@@ -72,11 +75,13 @@ function App() {
           title='🇬🇧 In English'
           color='lavender'
           link='/cv_en.pdf'
+          tooltipTarget='cv_en'
         />
         <Button
           title='🇧🇷 In Portuguese'
           color='green'
           link='/cv_br.pdf'
+          tooltipTarget='cv_br'
         />
       </Block>
 
