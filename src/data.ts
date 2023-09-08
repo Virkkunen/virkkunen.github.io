@@ -1,6 +1,6 @@
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import { faBehance, faGithub, faLinkedin, faMastodon, faReact, faTelegram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { faBowlFood, faClock, faCloudMoon, faDiceD20, faEnvelope, faStore } from '@fortawesome/free-solid-svg-icons';
+import { faBehance, faGithub, faLinkedin, faMastodon, faTelegram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faClock, faCloudMoon, faDiceD20, faEnvelope, faPaste } from '@fortawesome/free-solid-svg-icons';
 
 interface Data {
   contact: Button[];
@@ -45,8 +45,6 @@ const data: Data = {
       "link": "mailto:vrkknn@vrkknn.net",
       "color": "mauve"
     },
-
-
     {
       "title": "WhatsApp",
       "icon": faWhatsapp,
@@ -68,12 +66,6 @@ const data: Data = {
       "color": "blue"
     },
     {
-      "title": "Trybe Projects",
-      "icon": faReact,
-      "link": "https://github.com/Virkkunen/trybe/tree/master/projetos",
-      "color": "green"
-    },
-    {
       "title": "Timer",
       "icon": faClock,
       "link": "/timer",
@@ -86,22 +78,16 @@ const data: Data = {
       "color": "green"
     },
     {
-      "title": "Recipes",
-      "icon": faBowlFood,
-      "link": "https://tryberecipes.vercel.app",
-      "color": "mauve"
-    },
-    {
-      "title": "Store Manager",
-      "icon": faStore,
-      "link": "https://github.com/Virkkunen/store-manager/",
-      "color": "teal"
-    },
-    {
       "title": "Weather",
       "icon": faCloudMoon,
       "link": "/weather",
       "color": "peach"
+    },
+    {
+      "title": "Microbin",
+      "icon": faPaste,
+      "link": "https://microbin.vrkknn.net",
+      "color": "sapphire"
     }
   ],
   "languages": [

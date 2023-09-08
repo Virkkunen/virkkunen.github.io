@@ -60,9 +60,9 @@ function App() {
         ))}
       </Block>
 
-      <Block title='What I know:'>
+      {/* <Block title='What I know:'>
         <span className='text-[10px]'>(this section will be updated soon™️)</span>
-      </Block>
+      </Block> */}
 
       <Block
         title='Curriculum:'
