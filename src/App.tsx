@@ -26,7 +26,7 @@ function App() {
           />
         </div>
         <span className='text-subtext1 text-xl max-sm:text-sm font-medium mt-6'>
-          🇧🇷🇮🇹Italian-Brazilian Web Developer based in 🇭🇺 Hungary
+          🇧🇷 🇮🇹 Italian-Brazilian Web Developer based in 🇭🇺 Hungary
         </span>
       </Block>
 
@@ -42,6 +42,8 @@ function App() {
             link={item.link}
             key={item.title}
             tooltipTarget={item.title.replace(/\s/g, '')}
+            tooltip={item.tooltip}
+
           />
         ))}
       </Block>

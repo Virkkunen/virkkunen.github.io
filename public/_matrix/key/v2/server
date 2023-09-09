@@ -3,9 +3,13 @@
   "server_name": "vrkknn.net",
   "signatures": {
     "vrkknn.net": {
-      "ed25519:a_tfnj": "Ajxa7Qr1V0+BPLbkdbKlhvwxGMQUqqQBnLUf4QQHg2N/XJ/rSuNwekJZMLi/xD64KXZvRfa5Qau0M0o7dgcjBA"
+      "ed25519:a_tfnj": "2o3qOK4niz52Qc0imSSu1Ubv/u7HveuREJgN3RDKE/u/TEshG7KkHxkw7fR/CZrEpek6RnY5/Ydm/BbA6ipXDQ"
     }
   },
-  "valid_until_ts": 1693989454010,
-  "verify_keys": { "ed25519:a_tfnj": { "key": "7215YxqYlimDiuOtTTtKPWmY2OrXxbSAGUJORZsFmcU" } }
+  "valid_until_ts": 1694009726524,
+  "verify_keys": {
+    "ed25519:a_tfnj": {
+      "key": "7215YxqYlimDiuOtTTtKPWmY2OrXxbSAGUJORZsFmcU"
+    }
+  }
 }

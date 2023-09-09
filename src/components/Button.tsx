@@ -39,6 +39,7 @@ const Button: React.FC<Button> = ({ title, icon, color, link, tooltipTarget, too
       rel={`noreferrer noopener ${title === '@Virkkunen@mastodon.social' && 'me'}`}
       href={link}
       data-tooltip-id={tooltipTarget}
+      // data-tooltip-float
     >
       {icon && (
         <FontAwesomeIcon
@@ -50,7 +51,7 @@ const Button: React.FC<Button> = ({ title, icon, color, link, tooltipTarget, too
       <Tooltip
         id={tooltipTarget}
         content={tooltip}
-        opacity={'0.9'}
+        opacity={'0.95'}
         style={{
           background: '#45475a',
           color: '#cdd6f4',

@@ -1,6 +1,6 @@
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import { faBehance, faGithub, faLinkedin, faMastodon, faTelegram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { faClock, faCloudMoon, faDiceD20, faEnvelope, faPaste } from '@fortawesome/free-solid-svg-icons';
+import { faBehance, faGithub, faLinkedin, faMastodon, faTelegram } from '@fortawesome/free-brands-svg-icons';
+import { faClock, faCloudMoon, faComments, faDiceD20, faEnvelope, faPaste } from '@fortawesome/free-solid-svg-icons';
 
 interface Data {
   contact: Button[];
@@ -26,37 +26,43 @@ const data: Data = {
       "title": "Virkkunen",
       "icon": faGithub,
       "link": "https://github.com/Virkkunen",
-      "color": "grey"
+      "color": "grey",
+      "tooltip": "Check out my GitHub"
+    },
+    {
+      "title": "@vrkknn:vrkknn.net",
+      "icon": faComments,
+      "link": "https://matrix.to/#/@vrkknn:vrkknn.net",
+      "color": "green",
+      "tooltip": "Chat with me via Matrix"
     },
     {
       "title": "@vrkknn",
       "icon": faTelegram,
       "link": "https://t.me/vrkknn",
-      "color": "blue"
+      "color": "blue",
+      "tooltip": "Chat with me via Telegram"
     },
     {
       "title": "fredalmeida-",
       "icon": faLinkedin,
       "link": "https://www.linkedin.com/in/fredalmeida-/",
-      "color": "sapphire"
+      "color": "sapphire",
+      "tooltip": "Find me on LinkedIn"
     },
     {
       "title": "fred@vrkknn.net",
       "icon": faEnvelope,
-      "link": "mailto:vrkknn@vrkknn.net",
-      "color": "mauve"
-    },
-    {
-      "title": "WhatsApp",
-      "icon": faWhatsapp,
-      "link": "https://wa.link/t1uuz0",
-      "color": "green"
+      "link": "mailto:fred@vrkknn.net",
+      "color": "mauve",
+      "tooltip": "Send me an email"
     },
     {
       "title": "@Virkkunen@mastodon.social",
       "icon": faMastodon,
       "link": "https://mastodon.social/@Virkkunen",
-      "color": "lavender"
+      "color": "lavender",
+      "tooltip": "Find me on Mastodon"
     }
   ],
   "portfolio": [
