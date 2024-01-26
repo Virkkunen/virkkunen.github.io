@@ -31,7 +31,7 @@ function App() {
       </Block>
 
       <Block
-        title='Contact me:'
+        title='Contact me'
         buttonGroup
       >
         {data.contact.map((item) => (
@@ -49,7 +49,7 @@ function App() {
       </Block>
 
       <Block
-        title="What I've made (or self hosted)"
+        title="Some projects"
         buttonGroup
       >
         {data.portfolio.map((item) => (
