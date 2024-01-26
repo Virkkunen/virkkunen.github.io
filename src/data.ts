@@ -1,6 +1,6 @@
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
 import { faBehance, faGithub, faLinkedin, faMastodon, faTelegram } from '@fortawesome/free-brands-svg-icons';
-import { faClock, faCloudMoon, faComments, faDiceD20, faEnvelope, faPaste } from '@fortawesome/free-solid-svg-icons';
+import { faClock, faCloudMoon, faComments, faDiceD20, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 interface Data {
   contact: Button[];
