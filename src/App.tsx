@@ -69,7 +69,7 @@ function App() {
         <span className='text-[10px]'>(this section will be updated soon™️)</span>
       </Block> */}
 
-      <Block
+      {/* <Block
         title='Curriculum:'
         buttonGroup
       >
@@ -85,7 +85,7 @@ function App() {
           link='/cv_br.pdf'
           tooltipTarget='cv_br'
         />
-      </Block>
+      </Block> */}
 
       <Block>
         <div className='flex flex-row justify-around'>
