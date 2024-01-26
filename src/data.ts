@@ -23,46 +23,46 @@ interface Test {
 const data: Data = {
   "contact": [
     {
-      "title": "Virkkunen",
+      "title": "GitHub",
       "icon": faGithub,
       "link": "https://github.com/Virkkunen",
       "color": "grey",
-      "tooltip": "Check out my GitHub"
+      "tooltip": "@Virkkunen"
     },
     {
-      "title": "@vrkknn:vrkknn.net",
+      "title": "Matrix",
       "icon": faComments,
       "link": "https://matrix.to/#/@vrkknn:vrkknn.net",
       "color": "green",
-      "tooltip": "Chat with me via Matrix"
+      "tooltip": "@vrkknn:vrkknn.net"
     },
     {
-      "title": "@vrkknn",
+      "title": "Telegram",
       "icon": faTelegram,
       "link": "https://t.me/vrkknn",
       "color": "blue",
-      "tooltip": "Chat with me via Telegram"
+      "tooltip": "@vrkknn"
     },
     {
-      "title": "fredalmeida-",
+      "title": "LinkedIn",
       "icon": faLinkedin,
       "link": "https://www.linkedin.com/in/fredalmeida-/",
       "color": "sapphire",
-      "tooltip": "Find me on LinkedIn"
+      "tooltip": "fredalmeida-"
     },
     {
-      "title": "fred@vrkknn.net",
+      "title": "Email",
       "icon": faEnvelope,
       "link": "mailto:fred@vrkknn.net",
       "color": "mauve",
-      "tooltip": "Send me an email"
+      "tooltip": "fred@vrkknn.net"
     },
     {
-      "title": "@Virkkunen@mastodon.social",
+      "title": "Mastodon",
       "icon": faMastodon,
       "link": "https://mastodon.social/@Virkkunen",
       "color": "lavender",
-      "tooltip": "Find me on Mastodon"
+      "tooltip": "@Virkkunen@mastodon.social"
     }
   ],
   "portfolio": [
@@ -93,13 +93,6 @@ const data: Data = {
       "color": "peach",
       "tooltip": "A weather forecast app"
     },
-    {
-      "title": "Microbin",
-      "icon": faPaste,
-      "link": "https://microbin.vrkknn.net",
-      "color": "sapphire",
-      "tooltip": "A secure text and file sharing web application"
-    }
   ],
   "languages": [
     {
