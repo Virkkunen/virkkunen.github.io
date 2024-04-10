@@ -1,6 +1,6 @@
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import { faBehance, faGithub, faLinkedin, faMastodon, faTelegram } from '@fortawesome/free-brands-svg-icons';
-import { faClock, faCloudMoon, faComments, faDiceD20, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faBehance, faGithub, faLinkedin, faMastodon, faTelegram, faSignalMessenger } from '@fortawesome/free-brands-svg-icons';
+import { faCat, faClock, faCloudMoon, faComments, faDiceD20, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 interface Data {
   contact: Button[];
@@ -37,10 +37,17 @@ const data: Data = {
       "tooltip": "@vrkknn:vrkknn.net"
     },
     {
+      "title": "Signal",
+      "icon": faSignalMessenger,
+      "link": "https://signal.me/#eu/hL4TUZh-BExRwLX1ZXYGhPaz4H3sMuRkzhW_tuG9i2h_9jsTf3VAxbbr9RoehA2q",
+      "color": "blue",
+      "tooltip": "Virkkunen.01"
+    },
+    {
       "title": "Telegram",
       "icon": faTelegram,
       "link": "https://t.me/vrkknn",
-      "color": "blue",
+      "color": "sky",
       "tooltip": "@vrkknn"
     },
     {
@@ -92,6 +99,13 @@ const data: Data = {
       "link": "/weather",
       "color": "peach",
       "tooltip": "A weather forecast app"
+    },
+    {
+      "title": "Lattla.art",
+      "icon": faCat,
+      "link": "https://lattla.art",
+      "color": "mauve",
+      "tooltip": "Latt-la's homepage"
     },
   ],
   "languages": [
