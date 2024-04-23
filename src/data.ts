@@ -15,6 +15,7 @@ import {
   faComments,
   faDiceD20,
   faEnvelope,
+  faPalette,
 } from "@fortawesome/free-solid-svg-icons";
 
 interface Data {
@@ -100,6 +101,13 @@ const data: Data = {
       icon: faBehance,
       link: "https://www.behance.net/vrkknn",
       color: "blue",
+    },
+    {
+      title: "INPRNT",
+      icon: faPalette,
+      link: "https://inprnt.com/gallery/virkkunen",
+      color: "sky",
+      tooltip: "Buy my artwork!",
     },
     {
       title: "Timer",
