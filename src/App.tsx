@@ -4,7 +4,7 @@ import Button from "./components/Button";
 import { faCat, faCode } from "@fortawesome/free-solid-svg-icons";
 import data from "./data";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { LazyMotion, MotionConfig, domAnimation } from "framer-motion";
+import { LazyMotion, MotionConfig, domAnimation, m } from "framer-motion";
 
 function App() {
   return (
@@ -21,12 +21,19 @@ function App() {
                 </div>
                 <span>Almeida</span>
               </div>
-              <FontAwesomeIcon
-                className="transition-all ease-in-out duration-200 rounded-2xl hover:bg-clip-content hover:text-transparent hover:bg-gradient-to-b hover:from-[#5BCEFA] hover:via-[#F5A9B8] hover:to-white"
-                icon={faCat}
-                color="#d20f39"
-                size="4x"
-              />
+              <m.div
+                whileHover={{
+                  scale: 1.2,
+                }}
+              >
+                <FontAwesomeIcon
+                  className="transition-all ease-in-out duration-200 rounded-2xl hover:bg-clip-content hover:text-transparent hover:bg-gradient-to-b hover:from-[#5BCEFA] hover:via-[#F5A9B8] hover:to-white"
+                  // className="transition-all ease-in-out duration-200 rounded-2xl"
+                  icon={faCat}
+                  color="#d20f39"
+                  size="4x"
+                />
+              </m.div>
             </div>
             <span className="text-subtext1 text-xl max-sm:text-sm font-medium mt-6">
               🇧🇷 🇮🇹 Italian-Brazilian Web Developer based in 🇭🇺 Hungary

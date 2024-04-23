@@ -10,7 +10,7 @@ interface Block {
 const animList = {
   visible: {
     opacity: 1,
-    y: 0,
+    x: 0,
     // transition: { ease: [0.6, -0.05, 0.01, 0.99], duration: 0.56 },
     transition: {
       ease: "circInOut",
@@ -18,16 +18,17 @@ const animList = {
       type: "spring",
     },
   },
-  hidden: { opacity: 0, y: 2000 },
+  hidden: { opacity: 0, x: 2000 },
 };
 
 const animItem = {
   visible: {
     opacity: 1,
     x: 0,
-    transition: { ease: "easeInOut", duration: 0.8 },
+    y: 0,
+    transition: { ease: "easeInOut", duration: 0.86, type: "spring" },
   },
-  hidden: { opacity: 0 },
+  hidden: { opacity: 0, y: 1000 },
 };
 
 const Block: React.FC<Block> = ({ children, title, buttonGroup }) => {
