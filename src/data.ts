@@ -1,6 +1,21 @@
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import { faBehance, faGithub, faLinkedin, faMastodon, faTelegram, faSignalMessenger } from '@fortawesome/free-brands-svg-icons';
-import { faCat, faClock, faCloudMoon, faComments, faDiceD20, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import {
+  faBehance,
+  faGithub,
+  faLinkedin,
+  faMastodon,
+  faTelegram,
+  faSignalMessenger,
+  faDeviantart,
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faCat,
+  faClock,
+  faCloudMoon,
+  faComments,
+  faDiceD20,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
 
 interface Data {
   contact: Button[];
@@ -21,223 +36,230 @@ interface Test {
 }
 
 const data: Data = {
-  "contact": [
+  contact: [
     {
-      "title": "GitHub",
-      "icon": faGithub,
-      "link": "https://github.com/Virkkunen",
-      "color": "grey",
-      "tooltip": "@Virkkunen"
+      title: "GitHub",
+      icon: faGithub,
+      link: "https://github.com/Virkkunen",
+      color: "grey",
+      tooltip: "@Virkkunen",
     },
     {
-      "title": "Matrix",
-      "icon": faComments,
-      "link": "https://matrix.to/#/@vrkknn:vrkknn.net",
-      "color": "green",
-      "tooltip": "@vrkknn:vrkknn.net"
+      title: "Matrix",
+      icon: faComments,
+      link: "https://matrix.to/#/@vrkknn:vrkknn.net",
+      color: "green",
+      tooltip: "@vrkknn:vrkknn.net",
     },
     {
-      "title": "Signal",
-      "icon": faSignalMessenger,
-      "link": "https://signal.me/#eu/hL4TUZh-BExRwLX1ZXYGhPaz4H3sMuRkzhW_tuG9i2h_9jsTf3VAxbbr9RoehA2q",
-      "color": "blue",
-      "tooltip": "Virkkunen.01"
+      title: "Signal",
+      icon: faSignalMessenger,
+      link: "https://signal.me/#eu/hL4TUZh-BExRwLX1ZXYGhPaz4H3sMuRkzhW_tuG9i2h_9jsTf3VAxbbr9RoehA2q",
+      color: "blue",
+      tooltip: "Virkkunen.01",
     },
     {
-      "title": "Telegram",
-      "icon": faTelegram,
-      "link": "https://t.me/vrkknn",
-      "color": "sky",
-      "tooltip": "@vrkknn"
+      title: "Telegram",
+      icon: faTelegram,
+      link: "https://t.me/vrkknn",
+      color: "sky",
+      tooltip: "@vrkknn",
     },
     {
-      "title": "LinkedIn",
-      "icon": faLinkedin,
-      "link": "https://www.linkedin.com/in/fredalmeida-/",
-      "color": "sapphire",
-      "tooltip": "fredalmeida-"
+      title: "LinkedIn",
+      icon: faLinkedin,
+      link: "https://www.linkedin.com/in/fredalmeida-/",
+      color: "sapphire",
+      tooltip: "fredalmeida-",
     },
     {
-      "title": "Email",
-      "icon": faEnvelope,
-      "link": "mailto:fred@vrkknn.net",
-      "color": "mauve",
-      "tooltip": "fred@vrkknn.net"
+      title: "Email",
+      icon: faEnvelope,
+      link: "mailto:fred@vrkknn.net",
+      color: "mauve",
+      tooltip: "fred@vrkknn.net",
     },
     {
-      "title": "Mastodon",
-      "icon": faMastodon,
-      "link": "https://mastodon.social/@Virkkunen",
-      "color": "lavender",
-      "tooltip": "@Virkkunen@mastodon.social"
-    }
-  ],
-  "portfolio": [
-    {
-      "title": "Art portfolio",
-      "icon": faBehance,
-      "link": "https://www.behance.net/vrkknn",
-      "color": "blue"
+      title: "Mastodon",
+      icon: faMastodon,
+      link: "https://mastodon.social/@Virkkunen",
+      color: "lavender",
+      tooltip: "@Virkkunen@mastodon.social",
     },
     {
-      "title": "Timer",
-      "icon": faClock,
-      "link": "/timer",
-      "color": "red",
-      "tooltip": "A timer app with sound alerts"
-    },
-    {
-      "title": "Dice",
-      "icon": faDiceD20,
-      "link": "/dice",
-      "color": "green",
-      "tooltip": "A simple dice roller with dice notation (2d20+3)"
-    },
-    {
-      "title": "Weather",
-      "icon": faCloudMoon,
-      "link": "/weather",
-      "color": "peach",
-      "tooltip": "A weather forecast app"
-    },
-    {
-      "title": "Lattla.art",
-      "icon": faCat,
-      "link": "https://lattla.art",
-      "color": "mauve",
-      "tooltip": "Latt-la's homepage"
+      title: "DeviantArt",
+      icon: faDeviantart,
+      link: "https://deviantart.com/vrkknn",
+      color: "teal",
+      tooltip: "vrkknn",
     },
   ],
-  "languages": [
+  portfolio: [
     {
-      "title": "android",
-      "iconStyle": "plain"
+      title: "Art portfolio",
+      icon: faBehance,
+      link: "https://www.behance.net/vrkknn",
+      color: "blue",
     },
     {
-      "title": "apple",
-      "iconStyle": "original"
+      title: "Timer",
+      icon: faClock,
+      link: "/timer",
+      color: "red",
+      tooltip: "A timer app with sound alerts",
     },
     {
-      "title": "bash",
-      "iconStyle": "plain"
+      title: "Dice",
+      icon: faDiceD20,
+      link: "/dice",
+      color: "green",
+      tooltip: "A simple dice roller with dice notation (2d20+3)",
     },
     {
-      "title": "bootstrap",
-      "iconStyle": "plain"
+      title: "Weather",
+      icon: faCloudMoon,
+      link: "/weather",
+      color: "peach",
+      tooltip: "A weather forecast app",
     },
     {
-      "title": "css3",
-      "iconStyle": "plain"
+      title: "Lattla.art",
+      icon: faCat,
+      link: "https://lattla.art",
+      color: "mauve",
+      tooltip: "Latt-la's homepage",
+    },
+  ],
+  languages: [
+    {
+      title: "android",
+      iconStyle: "plain",
     },
     {
-      "title": "dart",
-      "iconStyle": "original"
+      title: "apple",
+      iconStyle: "original",
     },
     {
-      "title": "django",
-      "iconStyle": "plain",
-      "svgStyle": "plain"
+      title: "bash",
+      iconStyle: "plain",
     },
     {
-      "title": "docker",
-      "iconStyle": "plain"
+      title: "bootstrap",
+      iconStyle: "plain",
     },
     {
-      "title": "express",
-      "iconStyle": "original"
+      title: "css3",
+      iconStyle: "plain",
     },
     {
-      "title": "flutter",
-      "iconStyle": "original"
+      title: "dart",
+      iconStyle: "original",
     },
     {
-      "title": "git",
-      "iconStyle": "plain"
+      title: "django",
+      iconStyle: "plain",
+      svgStyle: "plain",
     },
     {
-      "title": "github",
-      "iconStyle": "original"
+      title: "docker",
+      iconStyle: "plain",
     },
     {
-      "title": "html5",
-      "iconStyle": "plain"
+      title: "express",
+      iconStyle: "original",
     },
     {
-      "title": "javascript",
-      "iconStyle": "plain"
+      title: "flutter",
+      iconStyle: "original",
     },
     {
-      "title": "jira",
-      "iconStyle": "plain"
+      title: "git",
+      iconStyle: "plain",
     },
     {
-      "title": "linux",
-      "iconStyle": "plain"
+      title: "github",
+      iconStyle: "original",
     },
     {
-      "title": "materialui",
-      "iconStyle": "plain",
-      "svgStyle": "original"
+      title: "html5",
+      iconStyle: "plain",
     },
     {
-      "title": "markdown",
-      "iconStyle": "original"
+      title: "javascript",
+      iconStyle: "plain",
     },
     {
-      "title": "mysql",
-      "iconStyle": "plain",
-      "svgStyle": "original"
+      title: "jira",
+      iconStyle: "plain",
     },
     {
-      "title": "nodejs",
-      "iconStyle": "plain",
-      "svgStyle": "original"
+      title: "linux",
+      iconStyle: "plain",
     },
     {
-      "title": "python",
-      "iconStyle": "plain"
+      title: "materialui",
+      iconStyle: "plain",
+      svgStyle: "original",
     },
     {
-      "title": "raspberrypi",
-      "iconStyle": "line"
+      title: "markdown",
+      iconStyle: "original",
     },
     {
-      "title": "react",
-      "iconStyle": "original"
+      title: "mysql",
+      iconStyle: "plain",
+      svgStyle: "original",
     },
     {
-      "title": "redux",
-      "iconStyle": "original"
+      title: "nodejs",
+      iconStyle: "plain",
+      svgStyle: "original",
     },
     {
-      "title": "sass",
-      "iconStyle": "original",
-      "svgStyle": "original"
+      title: "python",
+      iconStyle: "plain",
     },
     {
-      "title": "tailwindcss",
-      "iconStyle": "plain",
-      "svgStyle": "plain"
+      title: "raspberrypi",
+      iconStyle: "line",
     },
     {
-      "title": "trello",
-      "iconStyle": "plain",
-      "svgStyle": "plain"
+      title: "react",
+      iconStyle: "original",
     },
     {
-      "title": "typescript",
-      "iconStyle": "plain",
-      "svgStyle": "plain"
+      title: "redux",
+      iconStyle: "original",
     },
     {
-      "title": "vscode",
-      "iconStyle": "plain"
+      title: "sass",
+      iconStyle: "original",
+      svgStyle: "original",
     },
     {
-      "title": "windows8",
-      "iconStyle": "original"
-    }
-  ]
-}
+      title: "tailwindcss",
+      iconStyle: "plain",
+      svgStyle: "plain",
+    },
+    {
+      title: "trello",
+      iconStyle: "plain",
+      svgStyle: "plain",
+    },
+    {
+      title: "typescript",
+      iconStyle: "plain",
+      svgStyle: "plain",
+    },
+    {
+      title: "vscode",
+      iconStyle: "plain",
+    },
+    {
+      title: "windows8",
+      iconStyle: "original",
+    },
+  ],
+};
 
 export default data;
