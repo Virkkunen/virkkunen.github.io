@@ -6,7 +6,6 @@ import {
   faMastodon,
   faTelegram,
   faSignalMessenger,
-  faDeviantart,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faCat,
@@ -16,6 +15,7 @@ import {
   faDiceD20,
   faEnvelope,
   faPalette,
+  faRocket
 } from "@fortawesome/free-solid-svg-icons";
 
 interface Data {
@@ -78,7 +78,7 @@ const data: Data = {
       icon: faEnvelope,
       link: "mailto:fred@vrkknn.net",
       color: "mauve",
-      tooltip: "fred@vrkknn.net",
+      tooltip: "vrkknn@vrkknn.net",
     },
     {
       title: "Mastodon",
@@ -86,13 +86,6 @@ const data: Data = {
       link: "https://mastodon.social/@Virkkunen",
       color: "lavender",
       tooltip: "@Virkkunen@mastodon.social",
-    },
-    {
-      title: "DeviantArt",
-      icon: faDeviantart,
-      link: "https://deviantart.com/vrkknn",
-      color: "teal",
-      tooltip: "vrkknn",
     },
   ],
   portfolio: [
@@ -136,6 +129,13 @@ const data: Data = {
       link: "https://lattla.art",
       color: "mauve",
       tooltip: "Latt-la's homepage",
+    },
+    {
+      title: "Kessleroids",
+      icon: faRocket,
+      link: "https://github.com/Virkkunen/Kessleroids",
+      color: "green",
+      tooltip: "An Asteroids-like made in Godot",
     },
   ],
   languages: [
