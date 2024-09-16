@@ -55,9 +55,9 @@ const data: Data = {
     {
       title: "Signal",
       icon: faSignalMessenger,
-      link: "https://signal.me/#eu/hL4TUZh-BExRwLX1ZXYGhPaz4H3sMuRkzhW_tuG9i2h_9jsTf3VAxbbr9RoehA2q",
+      link: "https://signal.me/#eu/70VOPP1AR3AlkpY-Il97_FWnBIZO6-iD_mkGYLmnfpB4KfLGDOpD5rp1CVNmqLR8",
       color: "blue",
-      tooltip: "Virkkunen.01",
+      tooltip: "Virkkunen.119",
     },
     {
       title: "Telegram",
@@ -76,7 +76,7 @@ const data: Data = {
     {
       title: "Email",
       icon: faEnvelope,
-      link: "mailto:fred@vrkknn.net",
+      link: "mailto:vrkknn@vrkknn.net",
       color: "mauve",
       tooltip: "vrkknn@vrkknn.net",
     },
@@ -89,6 +89,13 @@ const data: Data = {
     },
   ],
   portfolio: [
+    {
+      title: "Kessleroids",
+      icon: faRocket,
+      link: "https://virkkunen.itch.io/kessleroids",
+      color: "green",
+      tooltip: "An Asteroids-like made in Godot",
+    },
     {
       title: "Art portfolio",
       icon: faBehance,
@@ -129,13 +136,6 @@ const data: Data = {
       link: "https://lattla.art",
       color: "mauve",
       tooltip: "Latt-la's homepage",
-    },
-    {
-      title: "Kessleroids",
-      icon: faRocket,
-      link: "https://github.com/Virkkunen/Kessleroids",
-      color: "green",
-      tooltip: "An Asteroids-like made in Godot",
     },
   ],
   languages: [
