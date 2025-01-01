@@ -16,10 +16,9 @@ function App() {
             <div className="flex flex-row justify-between items-center">
               <div className="flex flex-col gap-y-1 font-extrabold text-[48px]">
                 <div className="flex flex-row gap-x-2 items-baseline">
-                  <span>Fred</span>
-                  <span className="text-subtext0 text-xl">'Virkkunen'</span>
+                  <span>Virkkunen</span>
                 </div>
-                <span>Almeida</span>
+                <span className="text-subtext0 text-xl">vrkknn</span>
               </div>
               <m.div
                 whileHover={{

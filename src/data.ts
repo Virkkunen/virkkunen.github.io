@@ -1,9 +1,9 @@
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
 import {
-  faBehance,
+  // faBehance,
   faGithub,
-  faLinkedin,
-  faMastodon,
+  // faLinkedin,
+  // faMastodon,
   faTelegram,
   faSignalMessenger,
 } from "@fortawesome/free-brands-svg-icons";
@@ -14,6 +14,7 @@ import {
   faComments,
   faDiceD20,
   faEnvelope,
+  faGamepad,
   faPalette,
   faRocket
 } from "@fortawesome/free-solid-svg-icons";
@@ -66,13 +67,13 @@ const data: Data = {
       color: "sky",
       tooltip: "@vrkknn",
     },
-    {
-      title: "LinkedIn",
-      icon: faLinkedin,
-      link: "https://www.linkedin.com/in/fredalmeida-/",
-      color: "sapphire",
-      tooltip: "fredalmeida-",
-    },
+    // {
+    //   title: "LinkedIn",
+    //   icon: faLinkedin,
+    //   link: "https://www.linkedin.com/in/fredalmeida-/",
+    //   color: "sapphire",
+    //   tooltip: "fredalmeida-",
+    // },
     {
       title: "Email",
       icon: faEnvelope,
@@ -80,15 +81,22 @@ const data: Data = {
       color: "mauve",
       tooltip: "vrkknn@vrkknn.net",
     },
-    {
-      title: "Mastodon",
-      icon: faMastodon,
-      link: "https://mastodon.social/@Virkkunen",
-      color: "lavender",
-      tooltip: "@Virkkunen@mastodon.social",
-    },
+    // {
+    //   title: "Mastodon",
+    //   icon: faMastodon,
+    //   link: "https://mastodon.social/@Virkkunen",
+    //   color: "lavender",
+    //   tooltip: "@Virkkunen@mastodon.social",
+    // },
   ],
   portfolio: [
+    {
+      title: "Itch.io",
+      icon: faGamepad,
+      link: "https://virkkunen.itch.io/",
+      color: "lavender",
+      tooltip: "My games",
+    },
     {
       title: "Kessleroids",
       icon: faRocket,
@@ -96,18 +104,18 @@ const data: Data = {
       color: "green",
       tooltip: "An Asteroids-like made in Godot",
     },
-    {
-      title: "Art portfolio",
-      icon: faBehance,
-      link: "https://www.behance.net/vrkknn",
-      color: "blue",
-    },
+    // {
+    //   title: "Art portfolio",
+    //   icon: faBehance,
+    //   link: "https://www.behance.net/vrkknn",
+    //   color: "blue",
+    // },
     {
       title: "INPRNT",
       icon: faPalette,
       link: "https://inprnt.com/gallery/virkkunen",
       color: "sky",
-      tooltip: "Buy my artwork!",
+      tooltip: "Buy my artwork",
     },
     {
       title: "Timer",
