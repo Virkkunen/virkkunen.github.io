@@ -18,7 +18,7 @@ function App() {
                 <div className="flex flex-row gap-x-2 items-baseline">
                   <span>Virkkunen</span>
                 </div>
-                <span className="text-subtext0 text-xl">vrkknn</span>
+                <span className="text-subtext1 text-xl">vrkknn</span>
               </div>
               <m.div
                 whileHover={{
