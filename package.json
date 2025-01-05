@@ -2,7 +2,7 @@
   "name": "vrkknn.net",
   "private": true,
   "homepage": "https://vrkknn.net",
-  "version": "2.4.3",
+  "version": "2.4.4",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
@@ -38,7 +38,6 @@
     "postcss": "^8.4.24",
     "tailwindcss": "^3.2.0",
     "typescript": "^5.0.2",
-    "vite": "^6.0.7",
-    "vite-plugin-pwa": "^0.21.1"
+    "vite": "^6.0.7"
   }
 }
