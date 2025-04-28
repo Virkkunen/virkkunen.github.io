@@ -36,7 +36,7 @@ const Button: React.FC<Button> = ({ title, icon, color, link, tooltipTarget, too
     <a
       className={`${bgColor[color]} px-6 py-4 xl:px-4 xl:py-2 rounded-2xl drop-shadow-sm text-crust font-semibold font-fira-condensed transition-all ease-in-out duration-200 hover:-translate-y-1 hover:scale-110 hover:drop-shadow-xl active:brightness-75 active:translate-y-1 active:scale-95 active:drop-shadow-none flex flex-row justify-center xl:justify-between gap-x-2 items-center text-2xl xl:text-xl z-10`}
       target='_blank'
-      rel={`noreferrer noopener ${title === '@Virkkunen@mastodon.social' && 'me'}`}
+      rel={`noreferrer noopener`}
       href={link}
       data-tooltip-id={tooltipTarget}
       // data-tooltip-float
