@@ -1,19 +1,19 @@
 {
-  "contacts": [
-      {
-          "matrix_id": "@vrkknn:vrkknn.net",
-          "email_address": "security@vrkknn.net",
-          "role": "m.role.security"
-      },
-      {
-          "matrix_id": "@vrkknn:vrkknn.net",
-          "email_address": "admin@vrkknn.net",
-          "role": "m.role.admin"
-      },
-      {
-          "matrix_id": "@virkkunen:beeper.com",
-          "role": "m.role.admin"
-      }
-  ],
-  "support_page": "https://matrix.to/#/#abuse:vrkknn.net"
+    "contacts": [
+        {
+            "matrix_id": "@vrkknn:vrkknn.net",
+            "email_address": "security@vrkknn.net",
+            "role": "m.role.security"
+        },
+        {
+            "matrix_id": "@vrkknn:vrkknn.net",
+            "email_address": "admin@vrkknn.net",
+            "role": "m.role.admin"
+        },
+        {
+            "matrix_id": "@virkkunen:beeper.com",
+            "role": "m.role.admin"
+        }
+    ],
+    "support_page": "https://matrix.to/#/#abuse:vrkknn.net"
 }
