@@ -5,17 +5,25 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faClock,
+  faCloud,
   faCloudMoon,
+  faCodeCommit,
   faComments,
+  faDiamond,
   faDiceD20,
   faEnvelope,
   faGamepad,
+  faHeartPulse,
+  faHouse,
+  faKiwiBird,
+  faRobot,
   faRocket
 } from "@fortawesome/free-solid-svg-icons";
 
 interface Data {
   contact: Button[];
   portfolio: Button[];
+  services: Button[];
 }
 
 interface Button {
@@ -28,13 +36,6 @@ interface Button {
 
 const data: Data = {
   contact: [
-    {
-      title: "GitHub",
-      icon: faGithub,
-      link: "https://github.com/Virkkunen",
-      color: "grey",
-      tooltip: "@Virkkunen",
-    },
     {
       title: "Matrix",
       icon: faComments,
@@ -55,6 +56,13 @@ const data: Data = {
       link: "mailto:vrkknn@vrkknn.net",
       color: "mauve",
       tooltip: "vrkknn@vrkknn.net",
+    },
+    {
+      title: "GitHub",
+      icon: faGithub,
+      link: "https://github.com/Virkkunen",
+      color: "grey",
+      tooltip: "@Virkkunen",
     }
   ],
   portfolio: [
@@ -64,6 +72,13 @@ const data: Data = {
       link: "https://virkkunen.itch.io/",
       color: "lavender",
       tooltip: "My games",
+    },
+    {
+      title: "twentyone",
+      icon: faDiamond,
+      link: "https://virkkunen.itch.io/twentyone",
+      color: "sapphire",
+      tooltip: "A Blackjack game for Android and Web",
     },
     {
       title: "Kessleroids",
@@ -93,6 +108,50 @@ const data: Data = {
       color: "peach",
       tooltip: "A weather forecast app",
     },
+  ],
+  services: [
+    {
+      title: "NextCloud",
+      icon: faCloud,
+      link: "https://next.vrkknn.net/",
+      color: "teal",
+      tooltip: "Self-hosted productivity platform",
+    },
+    {
+      title: "Cinny",
+      icon: faKiwiBird,
+      link: "https://cinny.vrkknn.net/",
+      color: "grey",
+      tooltip: "Web based Matrix client",
+    },
+    {
+      title: "OpenGist",
+      icon: faCodeCommit,
+      link: "https://gist.vrkknn.net/",
+      color: "lavender",
+      tooltip: "FOSS pastebin powered by Git",
+    },
+    {
+      title: "Maubot",
+      icon: faRobot,
+      link: "https://maubot.vrkknn.net/",
+      color: "green",
+      tooltip: "Plugin-based Matrix bot system",
+    },
+    {
+      title: "FHD",
+      icon: faHeartPulse,
+      link: "https://health.vrkknn.net/",
+      color: "red",
+      tooltip: "A Fitbit Grafana dashboard",
+    },
+    {
+      title: "Home Assistant",
+      icon: faHouse,
+      link: "https://home.vrkknn.net/",
+      color: "blue",
+      tooltip: "Home automation platform",
+    }
   ]
 };
 

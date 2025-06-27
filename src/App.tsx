@@ -36,10 +36,15 @@ function App() {
               </m.div>
             </div>
             <span className='text-subtext1 text-lg max-sm:text-sm font-medium mt-6'>
-              Hej, I'm Virkkunen! You can call me Vikki or V. <span className='text-subtext0 text-[0.9rem]'>vrkknn is Virkkunen without the vowels.</span>
+              Hej, I'm Virkkunen! You can call me Vikki or V.{' '}
+              <span className='text-subtext0 text-[0.9rem]'>
+                vrkknn is Virkkunen without the vowels.
+              </span>
             </span>
             <span className='text-subtext1 text-lg max-sm:text-sm font-medium mt-2'>
-              I'm a web developer and film major currently based in Hungary. Also a tech enthusiast, FOSS supporter, hobbyist artist  <span className='text-subtext0 text-[0.9rem]'>and I use arch btw</span>
+              I'm a web developer and film major currently based in Hungary. Also a tech enthusiast,
+              FOSS supporter, hobbyist artist{' '}
+              <span className='text-subtext0 text-[0.9rem]'>and I use arch btw</span>
             </span>
           </Block>
 
@@ -48,6 +53,23 @@ function App() {
             buttonGroup
           >
             {data.portfolio.map((item) => (
+              <Button
+                title={item.title}
+                icon={item.icon}
+                color={item.color}
+                link={item.link}
+                key={item.title}
+                tooltipTarget={item.title.replace(/\s/g, '')}
+                tooltip={item.tooltip}
+              />
+            ))}
+          </Block>
+
+          <Block
+            title='Services'
+            buttonGroup
+          >
+            {data.services.map((item) => (
               <Button
                 title={item.title}
                 icon={item.icon}
