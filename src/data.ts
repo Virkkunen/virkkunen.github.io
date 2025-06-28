@@ -134,7 +134,7 @@ const data: Data = {
     {
       title: "Maubot",
       icon: faRobot,
-      link: "https://maubot.vrkknn.net/",
+      link: "https://matrix.vrkknn.net/_matrix/maubot/",
       color: "green",
       tooltip: "Plugin-based Matrix bot system",
     },
