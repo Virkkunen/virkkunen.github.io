@@ -4,6 +4,7 @@ import {
   faSignalMessenger,
 } from "@fortawesome/free-brands-svg-icons";
 import {
+  faChartSimple,
   faClock,
   faCloud,
   faCloudMoon,
@@ -12,6 +13,7 @@ import {
   faDiamond,
   faDiceD20,
   faEnvelope,
+  faFeather,
   faGamepad,
   faHeartPulse,
   faHouse,
@@ -114,8 +116,8 @@ const data: Data = {
       title: "NextCloud",
       icon: faCloud,
       link: "https://next.vrkknn.net/",
-      color: "teal",
-      tooltip: "Self-hosted productivity platform",
+      color: "sapphire",
+      tooltip: "Self hosted productivity platform",
     },
     {
       title: "Cinny",
@@ -136,12 +138,12 @@ const data: Data = {
       icon: faRobot,
       link: "https://matrix.vrkknn.net/_matrix/maubot/",
       color: "green",
-      tooltip: "Plugin-based Matrix bot system",
+      tooltip: "Plugin based Matrix bot system",
     },
     {
       title: "FHD",
       icon: faHeartPulse,
-      link: "https://health.vrkknn.net/",
+      link: "https://fit.vrkknn.net/",
       color: "red",
       tooltip: "A Fitbit Grafana dashboard",
     },
@@ -151,6 +153,20 @@ const data: Data = {
       link: "https://home.vrkknn.net/",
       color: "blue",
       tooltip: "Home automation platform",
+    },
+    {
+      title: "Etherpad",
+      icon: faFeather,
+      link: "https://etherpad.vrkknn.net/",
+      color: "teal",
+      tooltip: "Web based collaborative real-time editor",
+    },
+    {
+      title: "Grafana",
+      icon: faChartSimple,
+      link: "https://stats.vrkknn.net/",
+      color: "peach",
+      tooltip: "Metrics dashboard",
     }
   ]
 };
