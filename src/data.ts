@@ -18,7 +18,8 @@ import {
   faHouse,
   faKiwiBird,
   faRobot,
-  faRocket
+  faRocket,
+  faVideo
 } from "@fortawesome/free-solid-svg-icons";
 
 interface Data {
@@ -155,10 +156,17 @@ const data: Data = {
     },
     {
       title: "Grafana",
-      icon: faChartSimple ,
+      icon: faChartSimple,
       link: "https://stats.vrkknn.net/",
       color: "peach",
       tooltip: "Metrics dashboard",
+    },
+    {
+      title: "Jitsi",
+      icon: faVideo,
+      link: "https://jitsi.vrkknn.net/",
+      color: "teal",
+      tooltip: "Video conferencing service",
     }
   ]
 };
