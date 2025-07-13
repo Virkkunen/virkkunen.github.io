@@ -19,6 +19,7 @@ import {
   faKiwiBird,
   faRobot,
   faRocket,
+  faServer,
   faVideo
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -112,6 +113,13 @@ const data: Data = {
     },
   ],
   services: [
+    {
+      title: "Uptime",
+      icon: faServer,
+      link: "https://up.vrkknn.net/",
+      color: "red",
+      tooltip: "Check status for all services",
+    },
     {
       title: "NextCloud",
       icon: faCloud,
