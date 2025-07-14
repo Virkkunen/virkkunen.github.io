@@ -4,7 +4,6 @@ import {
   faSignalMessenger,
 } from "@fortawesome/free-brands-svg-icons";
 import {
-  faChartSimple,
   faClock,
   faCloud,
   faCloudMoon,
@@ -17,10 +16,8 @@ import {
   faHeartPulse,
   faHouse,
   faKiwiBird,
-  faRobot,
   faRocket,
   faServer,
-  faVideo
 } from "@fortawesome/free-solid-svg-icons";
 
 interface Data {
@@ -116,7 +113,7 @@ const data: Data = {
     {
       title: "Uptime",
       icon: faServer,
-      link: "https://up.vrkknn.net/",
+      link: "https://up.vrkknn.net/status/all",
       color: "red",
       tooltip: "Check status for all services",
     },
@@ -142,13 +139,6 @@ const data: Data = {
       tooltip: "FOSS pastebin powered by Git",
     },
     {
-      title: "Maubot",
-      icon: faRobot,
-      link: "https://matrix.vrkknn.net/_matrix/maubot/",
-      color: "green",
-      tooltip: "Plugin based Matrix bot system",
-    },
-    {
       title: "FHD",
       icon: faHeartPulse,
       link: "https://fit.vrkknn.net/",
@@ -161,20 +151,6 @@ const data: Data = {
       link: "https://home.vrkknn.net/",
       color: "blue",
       tooltip: "Home automation platform",
-    },
-    {
-      title: "Grafana",
-      icon: faChartSimple,
-      link: "https://stats.vrkknn.net/",
-      color: "peach",
-      tooltip: "Metrics dashboard",
-    },
-    {
-      title: "Jitsi",
-      icon: faVideo,
-      link: "https://jitsi.vrkknn.net/",
-      color: "teal",
-      tooltip: "Video conferencing service",
     }
   ]
 };
