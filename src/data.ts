@@ -39,7 +39,7 @@ const data: Data = {
     {
       title: "Matrix",
       icon: faComments,
-      link: "https://matrix.to/#/@vrkknn:vrkknn.net",
+      link: "matrix:u/vrkknn:vrkknn.net?action=chat",
       color: "green",
       tooltip: "@vrkknn:vrkknn.net",
     },

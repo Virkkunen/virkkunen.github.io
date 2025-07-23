@@ -2,7 +2,7 @@
   "name": "vrkknn.net",
   "private": true,
   "homepage": "https://vrkknn.net",
-  "version": "2.7.0",
+  "version": "2.7.1",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
@@ -10,7 +10,7 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "tsc && vite build",
-    "deploy": "gh-pages -d dist -t"
+    "deploy": "tsc && vite build && ssh hetzner 'rm -rf /var/www/vrkknn.net/*' && scp -r dist/. hetzner:/var/www/vrkknn.net"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -34,7 +34,6 @@
     "eslint": "^9.17.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.16",
-    "gh-pages": "^6.0.0",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.2.0",
     "typescript": "^5.0.2",
