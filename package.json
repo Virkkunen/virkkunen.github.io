@@ -9,7 +9,6 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "tsc && vite build",
     "deploy": "tsc && vite build && ssh hetzner 'rm -rf /var/www/vrkknn.net/*' && scp -r dist/. hetzner:/var/www/vrkknn.net"
   },
   "dependencies": {
