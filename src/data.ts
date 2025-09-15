@@ -180,7 +180,7 @@ const data: Data = {
     {
       title: "codestorm.net",
       image: sky88x31,
-      link: "https://timedout.uk",
+      link: "https://codestorm.net",
     },
     {
       title: "austinhuang.me",
