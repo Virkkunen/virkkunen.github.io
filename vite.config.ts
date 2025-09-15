@@ -8,6 +8,8 @@ export default defineConfig({
   ],
   base: '/',
   build: {
+    target: 'esnext',
+    minify: 'esbuild',
     manifest: true,
     sourcemap: false,
     rollupOptions: {
