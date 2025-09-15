@@ -5,6 +5,7 @@ import { faCat, faCode } from '@fortawesome/free-solid-svg-icons';
 import data from './data';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { LazyMotion, MotionConfig, domAnimation, m } from 'framer-motion';
+import Ocho from './components/Ocho';
 
 function App() {
   return (
@@ -95,6 +96,22 @@ function App() {
                 key={item.title}
                 tooltipTarget={item.title.replace(/\s/g, '')}
                 tooltip={item.tooltip}
+              />
+            ))}
+          </Block>
+
+          <Block
+            title='88x31'
+            retroGroup
+          >
+            {data.oitoOitoTresUm.map((item) => (
+              <Ocho
+                title={item.title}
+                image={item.image}
+                link={item.link}
+                alt={item.alt ?? item.title}
+                tooltipTarget={item.title}
+                key={item.title}
               />
             ))}
           </Block>
