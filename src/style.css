@@ -40,3 +40,7 @@
     font-style: normal;
   }
 }
+
+body {
+  background-color: var(--color-ctp-crust);
+}

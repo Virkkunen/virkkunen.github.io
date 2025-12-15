@@ -1,13 +1,13 @@
 {
   "name": "vrkknn",
   "private": true,
-  "version": "0.0.0",
+  "version": "3.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
-    "deploy": "a"
+    "deploy": "deno run build && ssh hetzner 'rm -rf /var/www/vrkknn.net' && scp -r dist/. hetzner:/var/www/vrkknn.net"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.1.0",
