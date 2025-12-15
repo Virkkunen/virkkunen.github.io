@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import Block from './components/Block.vue';
+import LinkButton from './components/LinkButton.vue';
+import Footer from './components/Footer.vue';
+import { siteData } from './data/content';
+import Badge from './components/Badge.vue';
 </script>
 
 <template>
@@ -14,21 +18,75 @@ import Block from './components/Block.vue';
           widthAuto
           class="text-4xl xl:text-6xl text-ctp-red col-start-3 justify-self-end xl:row-span-2"
         />
-        <span class="fira-sans-condensed-semibold text-ctp-subtext0 text-sm col-span-3 xl:col-span-2">
+        <span
+          class="fira-sans-condensed-semibold text-ctp-subtext0 text-sm col-span-3 xl:col-span-2"
+        >
           "They said I could become anything, so I became a disappointment."
         </span>
       </div>
-      <div class="flex flex-col gap-y-2">
+      <div class="flex flex-col gap-y-2 max-md:text-[1.1rem]">
         <span>
           Hej, I'm Virkkunen! You can call me Vikki or V.
-          <small class="fira-sans-condensed-semibold text-ctp-subtext0">vrkknn is Virkkunen without the vowels.</small>
+          <small class="fira-sans-condensed-semibold text-ctp-subtext0"
+            >vrkknn is Virkkunen without the vowels.</small
+          >
         </span>
         <span>
-          I'm a web developer and film major currently based in Hungary. Also a tech enthusiast, FOSS supporter, hobbyist artist
+          I'm a web developer and film major currently based in Hungary. Also a tech enthusiast,
+          FOSS supporter, hobbyist artist
           <small class="fira-sans-condensed-semibold text-ctp-subtext0">and I use arch btw</small>
         </span>
       </div>
     </Block>
+    <Block
+      title="Some projects"
+      buttonGroup
+    >
+      <LinkButton
+        v-for="project in siteData.projects"
+        :title="project.title"
+        :icon="project.icon"
+        :colour="project.colour"
+        :link="project.link"
+      />
+    </Block>
+    <Block
+      title="Services"
+      buttonGroup
+    >
+      <LinkButton
+        v-for="service in siteData.services"
+        :title="service.title"
+        :icon="service.icon"
+        :colour="service.colour"
+        :link="service.link"
+      />
+    </Block>
+    <Block
+      title="Contact me"
+      buttonGroup
+    >
+      <LinkButton
+        v-for="contact in siteData.contact"
+        :title="contact.title"
+        :icon="contact.icon"
+        :colour="contact.colour"
+        :link="contact.link"
+      />
+    </Block>
+    <Block
+      title="88x31"
+      badgeGroup
+    >
+      <Badge
+        v-for="badge in siteData.badges"
+        :title="badge.title"
+        :image="badge.image"
+        :link="badge.link"
+        :alt="badge.alt"
+      />
+    </Block>
+    <Footer />
   </main>
 </template>
 
