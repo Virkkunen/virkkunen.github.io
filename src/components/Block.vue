@@ -7,22 +7,29 @@ const props = defineProps<{
 </script>
 
 <template>
-  <div
-    class="flex flex-col justify-between p-6 bg-ctp-base rounded-2xl xl:col-start-4 xl:col-span-6 2xl:col-start-5 2xl:col-span-4 shadow-md gap-y-4"
+  <Transition
+    appear
+    enter-active-class="transition-all duration-700 ease-out"
+    enter-from-class="translate-y-48 opacity-0"
+    enter-to-class="translate-y-0 opacity-100"
   >
-    <span class="justify-start fira-sans-semibold text-xl">{{ title }}</span>
     <div
-      v-if="buttonGroup"
-      class="flex max-lg:flex-col max-lg:justify-center flex-wrap gap-x-2 gap-y-4 xl:gap-4"
+      class="flex flex-col justify-between p-6 bg-ctp-base rounded-2xl xl:col-start-4 xl:col-span-6 2xl:col-start-5 2xl:col-span-4 shadow-md gap-y-4"
     >
-      <slot />
+      <span class="justify-start fira-sans-semibold text-xl">{{ title }}</span>
+      <div
+        v-if="buttonGroup"
+        class="flex max-lg:flex-col max-lg:justify-center flex-wrap gap-x-2 gap-y-4 xl:gap-4"
+      >
+        <slot />
+      </div>
+      <div
+        v-else-if="badgeGroup"
+        class="flex flex-wrap justify-center gap-2"
+      >
+        <slot />
+      </div>
+      <slot v-else />
     </div>
-    <div
-      v-else-if="badgeGroup"
-      class="flex flex-wrap justify-center gap-2"
-    >
-      <slot />
-    </div>
-    <slot v-else />
-  </div>
+  </Transition>
 </template>

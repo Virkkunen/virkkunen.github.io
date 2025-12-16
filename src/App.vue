@@ -16,7 +16,7 @@ import Badge from './components/Badge.vue';
         <font-awesome-icon
           icon="fa-solid fa-cat"
           widthAuto
-          class="text-4xl xl:text-6xl text-ctp-red col-start-3 justify-self-end xl:row-span-2"
+          class="text-4xl xl:text-6xl text-ctp-red col-start-3 justify-self-end xl:row-span-2 animate-bounce"
         />
         <span
           class="fira-sans-condensed-semibold text-ctp-subtext0 text-sm col-span-3 xl:col-span-2"
