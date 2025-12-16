@@ -8,7 +8,7 @@ import Badge from './components/Badge.vue';
 
 <template>
   <main
-    class="bg-ctp-crust fira-sans-semibold min-h-screen w-full text-ctp-text flex flex-col xl:grid xl:grid-cols-12 xl:row-auto max-md:p-8 xl:place-content-center-safe xl:my-auto gap-y-8 xl:py-48"
+    class="bg-ctp-crust fira-sans-semibold min-h-screen w-full text-ctp-text flex flex-col xl:grid xl:grid-cols-12 xl:row-auto p-8 lg:p-24 xl:p-0 xl:place-content-center-safe xl:my-auto gap-y-8 xl:py-48"
   >
     <Block>
       <div class="grid grid-cols-3 grid-rows-2 items-center mb-4 xl:mb-2">
@@ -48,6 +48,7 @@ import Badge from './components/Badge.vue';
         :icon="project.icon"
         :colour="project.colour"
         :link="project.link"
+        :tooltip="project.tooltip"
       />
     </Block>
     <Block
@@ -60,6 +61,7 @@ import Badge from './components/Badge.vue';
         :icon="service.icon"
         :colour="service.colour"
         :link="service.link"
+        :tooltip="service.tooltip"
       />
     </Block>
     <Block
@@ -72,6 +74,7 @@ import Badge from './components/Badge.vue';
         :icon="contact.icon"
         :colour="contact.colour"
         :link="contact.link"
+        :tooltip="contact.tooltip"
       />
     </Block>
     <Block
@@ -84,6 +87,7 @@ import Badge from './components/Badge.vue';
         :image="badge.image"
         :link="badge.link"
         :alt="badge.alt"
+        :tooltip="badge.title"
       />
     </Block>
     <Footer />

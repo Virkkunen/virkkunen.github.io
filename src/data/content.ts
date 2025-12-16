@@ -3,7 +3,7 @@ export interface Button {
   icon: string
   colour: string
   link: string
-  tooltip?: string
+  tooltip: string
 }
 
 export interface Badge {
