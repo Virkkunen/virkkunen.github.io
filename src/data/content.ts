@@ -160,11 +160,6 @@ export const siteData: SiteData = {
       link: "https://timedout.uk",
     },
     {
-      title: "ip-logger.com",
-      image: "/assets/badges/nyx88x31.webp",
-      link: "https://ip-logger.com",
-    },
-    {
       title: "Internet privacy now!",
       image: "/assets/badges/privacy.webp",
       link: "https://www.privacyguides.org/en/basics/why-privacy-matters/"

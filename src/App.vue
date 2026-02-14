@@ -80,6 +80,7 @@ import Badge from './components/Badge.vue';
     <Block
       title="88x31"
       badgeGroup
+      id="88x31"
     >
       <Badge
         v-for="badge in siteData.badges"
