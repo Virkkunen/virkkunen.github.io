@@ -1,23 +1,23 @@
 export interface Button {
-  title: string
-  icon: string
-  colour: string
-  link: string
-  tooltip: string
+  title: string;
+  icon: string;
+  colour: string;
+  link: string;
+  tooltip: string;
 }
 
 export interface Badge {
-  title: string
-  image: string
-  link?: string
-  alt?: string
+  title: string;
+  image: string;
+  link?: string;
+  alt?: string;
 }
 
 export interface SiteData {
-  contact: Button[]
-  projects: Button[]
-  services: Button[]
-  badges: Badge[]
+  contact: Button[];
+  projects: Button[];
+  services: Button[];
+  badges: Badge[];
 }
 
 export const siteData: SiteData = {
@@ -32,7 +32,8 @@ export const siteData: SiteData = {
     {
       title: "Signal",
       icon: "fa-brands fa-signal-messenger",
-      link: "https://signal.me/#eu/70VOPP1AR3AlkpY-Il97_FWnBIZO6-iD_mkGYLmnfpB4KfLGDOpD5rp1CVNmqLR8",
+      link:
+        "https://signal.me/#eu/70VOPP1AR3AlkpY-Il97_FWnBIZO6-iD_mkGYLmnfpB4KfLGDOpD5rp1CVNmqLR8",
       colour: "var(--color-ctp-blue)",
       tooltip: "Virkkunen.119",
     },
@@ -49,7 +50,7 @@ export const siteData: SiteData = {
       link: "https://github.com/Virkkunen",
       colour: "var(--color-ctp-overlay2)",
       tooltip: "@Virkkunen",
-    }
+    },
   ],
   projects: [
     {
@@ -93,7 +94,7 @@ export const siteData: SiteData = {
       link: "/weather",
       colour: "var(--color-ctp-peach)",
       tooltip: "A weather forecast app",
-    }
+    },
   ],
   services: [
     {
@@ -102,13 +103,6 @@ export const siteData: SiteData = {
       link: "https://up.vrkknn.net/status/all",
       colour: "var(--color-ctp-red)",
       tooltip: "Check status for all services",
-    },
-    {
-      title: "NextCloud",
-      icon: "fa-cloud",
-      link: "https://next.vrkknn.net/",
-      colour: "var(--color-ctp-sapphire)",
-      tooltip: "Self hosted productivity platform",
     },
     {
       title: "Cinny",
@@ -124,13 +118,6 @@ export const siteData: SiteData = {
       colour: "var(--color-ctp-lavender)",
       tooltip: "FOSS pastebin powered by Git",
     },
-    {
-      title: "Home Assistant",
-      icon: "fa-house",
-      link: "https://home.vrkknn.net/",
-      colour: "var(--color-ctp-blue)",
-      tooltip: "Home automation platform",
-    }
   ],
   badges: [
     {
@@ -141,8 +128,8 @@ export const siteData: SiteData = {
       title: "cpluspatch.com",
       image: "/assets/badges/jesse88x31.png",
       link: "https://cpluspatch.com",
-      alt: "The text 'Jesse' overlaid on a dark rectangle with rainbow stripes on the top left. A small drawn character is present on the left.",
-
+      alt:
+        "The text 'Jesse' overlaid on a dark rectangle with rainbow stripes on the top left. A small drawn character is present on the left.",
     },
     {
       title: "codestorm.net",
@@ -162,7 +149,7 @@ export const siteData: SiteData = {
     {
       title: "Internet privacy now!",
       image: "/assets/badges/privacy.webp",
-      link: "https://www.privacyguides.org/en/basics/why-privacy-matters/"
+      link: "https://www.privacyguides.org/en/basics/why-privacy-matters/",
     },
     {
       title: "Trans ally!",
@@ -183,6 +170,6 @@ export const siteData: SiteData = {
     {
       title: "If buying isn't owning, piracy isn't stealing",
       image: "/assets/badges/pirate.webp",
-    }
-  ]
-}
+    },
+  ],
+};
