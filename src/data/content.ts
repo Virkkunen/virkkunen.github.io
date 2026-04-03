@@ -147,6 +147,11 @@ export const siteData: SiteData = {
       link: "https://timedout.uk",
     },
     {
+      title: "squarebowl.club/",
+      image: "/assets/badges/plate88x31.gif",
+      link: "https://squarebowl.club/",
+    },  
+    {
       title: "Internet privacy now!",
       image: "/assets/badges/privacy.webp",
       link: "https://www.privacyguides.org/en/basics/why-privacy-matters/",
