@@ -13,11 +13,7 @@ import Badge from './components/Badge.vue';
     <Block>
       <div class="grid grid-cols-3 grid-rows-2 items-center mb-4 xl:mb-2">
         <h1 class="text-4xl xl:text-5xl fira-sans-bold">Virkkunen</h1>
-        <font-awesome-icon
-          icon="fa-solid fa-cat"
-          widthAuto
-          class="text-4xl xl:text-6xl text-ctp-red col-start-3 justify-self-end xl:row-span-2 animate-bounce"
-        />
+        <img src="/assets/vrkknn_banner.webp" class="col-start-3 justify-self-end xl:row-span-2 animate-[pulse_5s_ease-in-out_infinite] active:animate-spin"/>
         <span
           class="fira-sans-condensed-semibold text-ctp-subtext0 text-sm col-span-3 xl:col-span-2"
         >

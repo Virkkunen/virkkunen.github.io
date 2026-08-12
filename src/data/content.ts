@@ -126,29 +126,29 @@ export const siteData: SiteData = {
     },
     {
       title: "cpluspatch.com",
-      image: "/assets/badges/jesse88x31.png",
+      image: "https://cpluspatch.com/images/icons/88x31.png",
       link: "https://cpluspatch.com",
       alt:
         "The text 'Jesse' overlaid on a dark rectangle with rainbow stripes on the top left. A small drawn character is present on the left.",
     },
     {
       title: "codestorm.net",
-      image: "/assets/badges/sky88x31.webp",
+      image: "https://codestorm.net/buttons/sky.gif",
       link: "https://codestorm.net",
     },
     {
       title: "austinhuang.me",
-      image: "/assets/badges/austin88x31.svg",
+      image: "https://austinhuang.me/assets/88x31.svg",
       link: "https://austinhuang.me",
     },
     {
       title: "timedout.uk",
-      image: "/assets/badges/nexy88x31.webp",
+      image: "https://timedout.uk/88x31s/nexy7574-new.gif",
       link: "https://timedout.uk",
     },
     {
       title: "squarebowl.club",
-      image: "/assets/badges/plate88x31.gif",
+      image: "https://squarebowl.club/images/88x31/plate.gif",
       link: "https://squarebowl.club/",
     },
     {
@@ -163,21 +163,26 @@ export const siteData: SiteData = {
       link: "https://neoshadow.co/",
     },
     {
-      title: "Internet privacy now!",
-      image: "/assets/badges/privacy.webp",
-      link: "https://www.privacyguides.org/en/basics/why-privacy-matters/",
+      title: "seija-amanojaku",
+      image: "https://seija-amanojaku.github.io/media/8831.gif",
+      link: "https://seija-amanojaku.github.io/",
     },
     {
       title: "Trans ally!",
-      image: "/assets/badges/trans.png",
+      image: "https://badge.les.bi/88x31/trans/trans/half.png",
     },
     {
       title: "Pride!",
-      image: "/assets/badges/pride.png",
+      image: "https://badge.les.bi/88x31/rainbow/rainbow/half.png",
     },
     {
       title: "Pan!",
-      image: "/assets/badges/pan.png",
+      image: "https://badge.les.bi/88x31/pan/pan/half.png",
+    },
+    {
+      title: "Internet privacy now!",
+      image: "/assets/badges/privacy.webp",
+      link: "https://www.privacyguides.org/en/basics/why-privacy-matters/",
     },
     {
       title: "Down with AI!",

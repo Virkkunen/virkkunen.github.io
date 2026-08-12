@@ -20,7 +20,7 @@ const props = defineProps<{
       rel="noopener noreferrer"
       :href="link"
       :title="tooltip"
-      class="drop-shadow-sm transition-all ease-in-out duration-200 hover:-translate-y-1 hover:scale-110 hover:drop-shadow-xl"
+      class="drop-shadow-sm transition-all ease-in-out duration-200 hover:-translate-y-1 hover:scale-110 hover:drop-shadow-xl [image-rendering:crisp-edges]"
     >
       <img
         :src="image"
