@@ -147,10 +147,21 @@ export const siteData: SiteData = {
       link: "https://timedout.uk",
     },
     {
-      title: "squarebowl.club/",
+      title: "squarebowl.club",
       image: "/assets/badges/plate88x31.gif",
       link: "https://squarebowl.club/",
-    },  
+    },
+    {
+      title: "gingershaped.computer",
+      image: "https://gingershaped.computer/8831/button.png",
+      link: "https://gingershaped.computer/",
+      alt: "ginger's 88x31 button"
+    },
+    {
+      title: "neoshadow.co",
+      image: "https://neoshadow.co/88x31.gif",
+      link: "https://neoshadow.co/",
+    },
     {
       title: "Internet privacy now!",
       image: "/assets/badges/privacy.webp",
